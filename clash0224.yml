@@ -1,4 +1,3 @@
-
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -6,94 +5,189 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: china-gzyd-1.forwardserver.xyz, port: 36018, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: china-gzyd-1.forwardserver.xyz}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: china-gzyd-1.forwardserver.xyz, port: 36018, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: china-gzyd-1.forwardserver.xyz}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 52.63.61.80, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: Ze9baeS5.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: trojan6.wefuckgfw.gq, port: 443, type: trojan, password: AYMSnUvR, sni: trojan6.wefuckgfw.gq, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: trojan6.wefuckgfw.gq, port: 443, type: trojan, password: KxCzzpLe, sni: trojan6.wefuckgfw.gq, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: trojan6.wefuckgfw.gq, port: 443, type: trojan, password: dLZlVTRz, sni: trojan6.wefuckgfw.gq, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: 0118ru.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0118ru.fans8.xyz}, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 0107hk.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0107hk.fans8.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: trojan6.wefuckgfw.gq, port: 443, type: trojan, password: wGhJQWNO, sni: trojan6.wefuckgfw.gq, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 台湾(欢迎订阅Youtube破解资源君), server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: chuna1.515223.xyz, port: 24793, type: vmess, uuid: 58975106-dc46-4942-b79e-336da67f1bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 172.99.190.188, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 13, server: 101.wowogg.cyou, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 14, server: 98.wowogg.cyou, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 15, server: 183.240.181.53, port: 22345, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 0, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 16, server: 198.41.212.234, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: 2022-world-1.a-yu.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 17, server: 98.wowogg.cyou, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 18, server: 101.wowogg.cyou, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 19, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 20, server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: Ze9baeS5.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 21, server: j-d.xioix.cf, port: 443, type: trojan, password: d52f0642-2216-42db-84a9-d7b1cf9290db, sni: j-d.xioix.cf, skip-cert-verify: true, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君), server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 22, server: 131.wowogg.cyou, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 23, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 24, server: 127.wowogg.cyou, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 25, server: 81.wowogg.cyou, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 26, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 3, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 27, server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 28, server: 91.wowogg.cyou, port: 52291, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 4, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 5, server: 134.wowogg.cyou, port: 52334, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 6, server: 42.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 42.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 29, server: 96.wowogg.cyou, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 30, server: 96.wowogg.cyou, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 31, server: 100.wowogg.cyou, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 32, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 7, server: 133.wowogg.cyou, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 8, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: 87.wowogg.cyou, port: 52287, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 33, server: 116.wowogg.cyou, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 34, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 35, server: 94.wowogg.cyou, port: 52294, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 36, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 37, server: 134.195.196.147, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 38, server: 87.wowogg.cyou, port: 52287, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 39, server: 134.195.196.193, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 9, server: 95.wowogg.cyou, port: 52295, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 40, server: 84.wowogg.cyou, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 41, server: 129.wowogg.cyou, port: 52329, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 42, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 10, server: 87.wowogg.cyou, port: 52287, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 43, server: 198.41.212.3, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 44, server: 127.wowogg.cyou, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 45, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 46, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 47, server: 90.wowogg.cyou, port: 52290, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 48, server: 100.wowogg.cyou, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 49, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 50, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 2, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 日本(欢迎订阅Youtube破解资源君), server: 183.232.56.104, port: 2104, type: vmess, uuid: c175dfa7-08ba-3b17-81b1-3796a81f8681, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: 183.232.56.104}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 51, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1211hk1.fans8.xyz}, udp: true}
-  - {name: 台湾(欢迎订阅Youtube破解资源君) 2, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0218tw02.fans8.xyz}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 8, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 52, server: 183.232.56.104, port: 2105, type: vmess, uuid: f902e4a0-1476-336f-be43-ca944794e922, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: 183.232.56.104}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 53, server: 1222ru.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1222ru.fans8.xyz}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 9, server: cmi.db-link.in, port: 21152, type: vmess, uuid: 3e2241ef-9b8a-34f4-be7d-3fe6615bfba3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: us01.db-link.in}, udp: true}
+  - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君), server: 0118ru.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 0118ru.fans8.xyz}, udp: true}
+  - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 0122us.fans8.xyz}, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君), server: v8.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 2, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 3, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 4, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 5, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 6, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 7, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 8, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 9, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 10, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 11, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 12, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 13, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 14, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 15, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 16, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 17, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇫🇷 法国(欢迎订阅Youtube破解资源君) 18, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君), server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2, server: app.ssfree.ru, port: 443, type: vmess, uuid: 13bac50a-945d-11ec-b2d4-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /getweather, ws-headers: {Host: app.ssfree.ru}, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.47727450.xyz}, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5, server: v4.ssrsub.com, port: 166, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6, server: v4.ssrsub.com, port: 166, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8, server: 172.99.190.188, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9, server: 172.99.190.188, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /shuier, ws-headers: {Host: xc1.v2rie.pp.ua}, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11, server: 172.99.190.205, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14, server: 172.99.190.205, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15, server: 172.99.190.205, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18, server: 172.99.190.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19, server: 172.99.190.149, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 20, server: 172.99.190.188, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 21, server: 172.99.190.188, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 22, server: 172.99.190.188, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 23, server: 172.99.190.188, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 24, server: 172.99.190.188, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 25, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 26, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 27, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: in04.dns2333.xyz, port: 63051, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: mugua-in01.airport-v2.com}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 169.197.142.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 169.197.142.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 169.197.142.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 169.197.142.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 169.197.142.187, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: 169.197.142.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: 169.197.142.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: t10.ssrsub.com, port: 8443, type: trojan, password: 739e53db-d41c-4bad-a61d-6cd5a173f85b, sni: t10.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: t10.ssrsub.com, port: 8443, type: trojan, password: b2015918-4a70-4250-8afa-dba8a5be97f4, sni: t10.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: cc2.doubledou.win, port: 4584, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cc2.doubledou.win, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 13, server: ccc1.doubledou.win, port: 4585, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: ccc1.doubledou.win, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 14, server: t3.ssrsub.com, port: 8443, type: trojan, password: b2015918-4a70-4250-8afa-dba8a5be97f4, sni: t3.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 15, server: t3.ssrsub.com, port: 8443, type: trojan, password: 739e53db-d41c-4bad-a61d-6cd5a173f85b, sni: t3.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 16, server: cuvip.doubledou.win, port: 4583, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cuvip.doubledou.win, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 17, server: cera.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cera.doubledou.win, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 18, server: v2losdmit1.doubledou.win, port: 6674, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: v2losdmit1.doubledou.win, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 19, server: hkcn2.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: hkcn2.doubledou.win, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 20, server: india.doubledou.win, port: 44435, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: india.doubledou.win, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 21, server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 14.earths.team, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 22, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 23, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 24, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 25, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 128hk01.fans8.xyz}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 26, server: 134.195.196.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 27, server: 218.78.10.181, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 28, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 29, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 30, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 31, server: 146.70.73.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 32, server: 112.33.36.109, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 33, server: 134.195.196.193, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 34, server: 134.195.196.193, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 35, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 36, server: 1222mnl.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1222mnl.fans8.xyz}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 37, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 38, server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 39, server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1211hk1.fans8.xyz}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 40, server: 128hk8.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 128hk8.fans8.xyz}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 41, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 128hk01.fans8.xyz}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 42, server: 1.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 1.earths.team, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 43, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 14.earths.team, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 44, server: 6.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 6.earths.team, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 45, server: 4.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 4.earths.team, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 46, server: 5.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 5.earths.team, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 47, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 48, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 49, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 50, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 51, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 52, server: 134.195.196.193, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 53, server: 134.195.196.193, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 54, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 55, server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 56, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 57, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 58, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 59, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 60, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 61, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 62, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 63, server: 134.195.196.193, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 64, server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 65, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 66, server: 134.195.196.147, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 67, server: 134.195.196.193, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 68, server: 134.195.196.147, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 69, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 70, server: 134.195.196.147, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 71, server: 134.195.196.147, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 72, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 73, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 74, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 75, server: 172.99.190.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 76, server: 1222mnl.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1222mnl.fans8.xyz}, udp: true}
+  - {name: 🇯🇵 日本(欢迎订阅Youtube破解资源君), server: 13.208.182.186, port: 443, type: vmess, uuid: 22b3eafd-3ac7-3138-97ef-a2c7ce3cb5b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cocksucker, ws-headers: {Host: jp3.bpyun.live}, udp: true}
+  - {name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君), server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}, udp: true}
+  - {name: 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}, udp: true}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: 110.wowogg.cyou, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4, server: 104.208.76.128, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 3
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 4
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 5
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 6
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 7
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 8
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 9
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 10
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 11
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 12
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 13
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 14
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 15
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 16
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 17
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 20
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 21
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 22
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 23
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 24
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 26
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -101,16 +195,11 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 台湾(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 13
       - 欧洲(欢迎订阅Youtube破解资源君) 14
       - 欧洲(欢迎订阅Youtube破解资源君) 15
@@ -120,27 +209,17 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 19
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
       - 欧洲(欢迎订阅Youtube破解资源君) 25
       - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 香港(欢迎订阅Youtube破解资源君) 4
-      - 香港(欢迎订阅Youtube破解资源君) 5
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 香港(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 29
       - 欧洲(欢迎订阅Youtube破解资源君) 30
       - 欧洲(欢迎订阅Youtube破解资源君) 31
       - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 香港(欢迎订阅Youtube破解资源君) 7
-      - 香港(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 33
       - 欧洲(欢迎订阅Youtube破解资源君) 34
       - 欧洲(欢迎订阅Youtube破解资源君) 35
@@ -148,11 +227,9 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 37
       - 欧洲(欢迎订阅Youtube破解资源君) 38
       - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 香港(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 40
       - 欧洲(欢迎订阅Youtube破解资源君) 41
       - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 香港(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 43
       - 欧洲(欢迎订阅Youtube破解资源君) 44
       - 欧洲(欢迎订阅Youtube破解资源君) 45
@@ -161,23 +238,91 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 48
       - 欧洲(欢迎订阅Youtube破解资源君) 49
       - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 日本(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 台湾(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 52
       - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 美国(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 54
+      - 欧洲(欢迎订阅Youtube破解资源君) 55
+      - 欧洲(欢迎订阅Youtube破解资源君) 56
+      - 欧洲(欢迎订阅Youtube破解资源君) 57
+      - 欧洲(欢迎订阅Youtube破解资源君) 58
+      - 欧洲(欢迎订阅Youtube破解资源君) 59
+      - 欧洲(欢迎订阅Youtube破解资源君) 60
+      - 欧洲(欢迎订阅Youtube破解资源君) 61
+      - 欧洲(欢迎订阅Youtube破解资源君) 62
+      - 欧洲(欢迎订阅Youtube破解资源君) 63
+      - 欧洲(欢迎订阅Youtube破解资源君) 64
+      - 欧洲(欢迎订阅Youtube破解资源君) 65
+      - 欧洲(欢迎订阅Youtube破解资源君) 66
+      - 欧洲(欢迎订阅Youtube破解资源君) 67
+      - 欧洲(欢迎订阅Youtube破解资源君) 68
+      - 欧洲(欢迎订阅Youtube破解资源君) 69
+      - 欧洲(欢迎订阅Youtube破解资源君) 70
+      - 欧洲(欢迎订阅Youtube破解资源君) 71
+      - 欧洲(欢迎订阅Youtube破解资源君) 72
+      - 欧洲(欢迎订阅Youtube破解资源君) 73
+      - 欧洲(欢迎订阅Youtube破解资源君) 74
+      - 欧洲(欢迎订阅Youtube破解资源君) 75
+      - 欧洲(欢迎订阅Youtube破解资源君) 76
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 3
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 4
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 5
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 6
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 7
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 8
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 9
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 10
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 11
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 12
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 13
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 14
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 15
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 16
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 17
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 20
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 21
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 22
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 23
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 24
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 26
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -185,16 +330,11 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 台湾(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 13
       - 欧洲(欢迎订阅Youtube破解资源君) 14
       - 欧洲(欢迎订阅Youtube破解资源君) 15
@@ -204,27 +344,17 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 19
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
       - 欧洲(欢迎订阅Youtube破解资源君) 25
       - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 香港(欢迎订阅Youtube破解资源君) 4
-      - 香港(欢迎订阅Youtube破解资源君) 5
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 香港(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 29
       - 欧洲(欢迎订阅Youtube破解资源君) 30
       - 欧洲(欢迎订阅Youtube破解资源君) 31
       - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 香港(欢迎订阅Youtube破解资源君) 7
-      - 香港(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 33
       - 欧洲(欢迎订阅Youtube破解资源君) 34
       - 欧洲(欢迎订阅Youtube破解资源君) 35
@@ -232,11 +362,9 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 37
       - 欧洲(欢迎订阅Youtube破解资源君) 38
       - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 香港(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 40
       - 欧洲(欢迎订阅Youtube破解资源君) 41
       - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 香港(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 43
       - 欧洲(欢迎订阅Youtube破解资源君) 44
       - 欧洲(欢迎订阅Youtube破解资源君) 45
@@ -245,24 +373,92 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 48
       - 欧洲(欢迎订阅Youtube破解资源君) 49
       - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 日本(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 台湾(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 52
       - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 美国(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 54
+      - 欧洲(欢迎订阅Youtube破解资源君) 55
+      - 欧洲(欢迎订阅Youtube破解资源君) 56
+      - 欧洲(欢迎订阅Youtube破解资源君) 57
+      - 欧洲(欢迎订阅Youtube破解资源君) 58
+      - 欧洲(欢迎订阅Youtube破解资源君) 59
+      - 欧洲(欢迎订阅Youtube破解资源君) 60
+      - 欧洲(欢迎订阅Youtube破解资源君) 61
+      - 欧洲(欢迎订阅Youtube破解资源君) 62
+      - 欧洲(欢迎订阅Youtube破解资源君) 63
+      - 欧洲(欢迎订阅Youtube破解资源君) 64
+      - 欧洲(欢迎订阅Youtube破解资源君) 65
+      - 欧洲(欢迎订阅Youtube破解资源君) 66
+      - 欧洲(欢迎订阅Youtube破解资源君) 67
+      - 欧洲(欢迎订阅Youtube破解资源君) 68
+      - 欧洲(欢迎订阅Youtube破解资源君) 69
+      - 欧洲(欢迎订阅Youtube破解资源君) 70
+      - 欧洲(欢迎订阅Youtube破解资源君) 71
+      - 欧洲(欢迎订阅Youtube破解资源君) 72
+      - 欧洲(欢迎订阅Youtube破解资源君) 73
+      - 欧洲(欢迎订阅Youtube破解资源君) 74
+      - 欧洲(欢迎订阅Youtube破解资源君) 75
+      - 欧洲(欢迎订阅Youtube破解资源君) 76
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 3
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 4
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 5
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 6
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 7
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 8
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 9
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 10
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 11
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 12
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 13
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 14
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 15
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 16
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 17
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 20
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 21
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 22
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 23
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 24
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 26
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -270,16 +466,11 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 台湾(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 13
       - 欧洲(欢迎订阅Youtube破解资源君) 14
       - 欧洲(欢迎订阅Youtube破解资源君) 15
@@ -289,27 +480,17 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 19
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
       - 欧洲(欢迎订阅Youtube破解资源君) 25
       - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 香港(欢迎订阅Youtube破解资源君) 4
-      - 香港(欢迎订阅Youtube破解资源君) 5
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 香港(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 29
       - 欧洲(欢迎订阅Youtube破解资源君) 30
       - 欧洲(欢迎订阅Youtube破解资源君) 31
       - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 香港(欢迎订阅Youtube破解资源君) 7
-      - 香港(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 33
       - 欧洲(欢迎订阅Youtube破解资源君) 34
       - 欧洲(欢迎订阅Youtube破解资源君) 35
@@ -317,11 +498,9 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 37
       - 欧洲(欢迎订阅Youtube破解资源君) 38
       - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 香港(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 40
       - 欧洲(欢迎订阅Youtube破解资源君) 41
       - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 香港(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 43
       - 欧洲(欢迎订阅Youtube破解资源君) 44
       - 欧洲(欢迎订阅Youtube破解资源君) 45
@@ -330,15 +509,39 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 48
       - 欧洲(欢迎订阅Youtube破解资源君) 49
       - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 日本(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 台湾(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 52
       - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 美国(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 54
+      - 欧洲(欢迎订阅Youtube破解资源君) 55
+      - 欧洲(欢迎订阅Youtube破解资源君) 56
+      - 欧洲(欢迎订阅Youtube破解资源君) 57
+      - 欧洲(欢迎订阅Youtube破解资源君) 58
+      - 欧洲(欢迎订阅Youtube破解资源君) 59
+      - 欧洲(欢迎订阅Youtube破解资源君) 60
+      - 欧洲(欢迎订阅Youtube破解资源君) 61
+      - 欧洲(欢迎订阅Youtube破解资源君) 62
+      - 欧洲(欢迎订阅Youtube破解资源君) 63
+      - 欧洲(欢迎订阅Youtube破解资源君) 64
+      - 欧洲(欢迎订阅Youtube破解资源君) 65
+      - 欧洲(欢迎订阅Youtube破解资源君) 66
+      - 欧洲(欢迎订阅Youtube破解资源君) 67
+      - 欧洲(欢迎订阅Youtube破解资源君) 68
+      - 欧洲(欢迎订阅Youtube破解资源君) 69
+      - 欧洲(欢迎订阅Youtube破解资源君) 70
+      - 欧洲(欢迎订阅Youtube破解资源君) 71
+      - 欧洲(欢迎订阅Youtube破解资源君) 72
+      - 欧洲(欢迎订阅Youtube破解资源君) 73
+      - 欧洲(欢迎订阅Youtube破解资源君) 74
+      - 欧洲(欢迎订阅Youtube破解资源君) 75
+      - 欧洲(欢迎订阅Youtube破解资源君) 76
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -357,9 +560,53 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 3
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 4
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 5
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 6
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 7
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 8
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 9
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 10
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 11
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 12
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 13
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 14
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 15
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 16
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 17
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 20
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 21
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 22
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 23
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 24
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 26
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -367,16 +614,11 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 台湾(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 13
       - 欧洲(欢迎订阅Youtube破解资源君) 14
       - 欧洲(欢迎订阅Youtube破解资源君) 15
@@ -386,27 +628,17 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 19
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
       - 欧洲(欢迎订阅Youtube破解资源君) 25
       - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 香港(欢迎订阅Youtube破解资源君) 4
-      - 香港(欢迎订阅Youtube破解资源君) 5
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 香港(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 29
       - 欧洲(欢迎订阅Youtube破解资源君) 30
       - 欧洲(欢迎订阅Youtube破解资源君) 31
       - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 香港(欢迎订阅Youtube破解资源君) 7
-      - 香港(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 33
       - 欧洲(欢迎订阅Youtube破解资源君) 34
       - 欧洲(欢迎订阅Youtube破解资源君) 35
@@ -414,11 +646,9 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 37
       - 欧洲(欢迎订阅Youtube破解资源君) 38
       - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 香港(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 40
       - 欧洲(欢迎订阅Youtube破解资源君) 41
       - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 香港(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 43
       - 欧洲(欢迎订阅Youtube破解资源君) 44
       - 欧洲(欢迎订阅Youtube破解资源君) 45
@@ -427,40 +657,102 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 48
       - 欧洲(欢迎订阅Youtube破解资源君) 49
       - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 日本(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 台湾(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 52
       - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 美国(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 54
+      - 欧洲(欢迎订阅Youtube破解资源君) 55
+      - 欧洲(欢迎订阅Youtube破解资源君) 56
+      - 欧洲(欢迎订阅Youtube破解资源君) 57
+      - 欧洲(欢迎订阅Youtube破解资源君) 58
+      - 欧洲(欢迎订阅Youtube破解资源君) 59
+      - 欧洲(欢迎订阅Youtube破解资源君) 60
+      - 欧洲(欢迎订阅Youtube破解资源君) 61
+      - 欧洲(欢迎订阅Youtube破解资源君) 62
+      - 欧洲(欢迎订阅Youtube破解资源君) 63
+      - 欧洲(欢迎订阅Youtube破解资源君) 64
+      - 欧洲(欢迎订阅Youtube破解资源君) 65
+      - 欧洲(欢迎订阅Youtube破解资源君) 66
+      - 欧洲(欢迎订阅Youtube破解资源君) 67
+      - 欧洲(欢迎订阅Youtube破解资源君) 68
+      - 欧洲(欢迎订阅Youtube破解资源君) 69
+      - 欧洲(欢迎订阅Youtube破解资源君) 70
+      - 欧洲(欢迎订阅Youtube破解资源君) 71
+      - 欧洲(欢迎订阅Youtube破解资源君) 72
+      - 欧洲(欢迎订阅Youtube破解资源君) 73
+      - 欧洲(欢迎订阅Youtube破解资源君) 74
+      - 欧洲(欢迎订阅Youtube破解资源君) 75
+      - 欧洲(欢迎订阅Youtube破解资源君) 76
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 台湾(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - 香港(欢迎订阅Youtube破解资源君) 3
-      - 香港(欢迎订阅Youtube破解资源君) 4
-      - 香港(欢迎订阅Youtube破解资源君) 5
-      - 香港(欢迎订阅Youtube破解资源君) 6
-      - 香港(欢迎订阅Youtube破解资源君) 7
-      - 香港(欢迎订阅Youtube破解资源君) 8
-      - 香港(欢迎订阅Youtube破解资源君) 9
-      - 香港(欢迎订阅Youtube破解资源君) 10
-      - 台湾(欢迎订阅Youtube破解资源君) 2
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 3
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 4
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 5
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 6
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 7
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 8
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 9
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 10
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 11
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 12
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 13
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 14
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 15
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 16
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 17
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 20
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 21
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 22
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 23
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 24
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 26
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -468,16 +760,11 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 台湾(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 13
       - 欧洲(欢迎订阅Youtube破解资源君) 14
       - 欧洲(欢迎订阅Youtube破解资源君) 15
@@ -487,27 +774,17 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 19
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
       - 欧洲(欢迎订阅Youtube破解资源君) 25
       - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 香港(欢迎订阅Youtube破解资源君) 4
-      - 香港(欢迎订阅Youtube破解资源君) 5
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 香港(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 29
       - 欧洲(欢迎订阅Youtube破解资源君) 30
       - 欧洲(欢迎订阅Youtube破解资源君) 31
       - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 香港(欢迎订阅Youtube破解资源君) 7
-      - 香港(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 33
       - 欧洲(欢迎订阅Youtube破解资源君) 34
       - 欧洲(欢迎订阅Youtube破解资源君) 35
@@ -515,11 +792,9 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 37
       - 欧洲(欢迎订阅Youtube破解资源君) 38
       - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 香港(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 40
       - 欧洲(欢迎订阅Youtube破解资源君) 41
       - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 香港(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 43
       - 欧洲(欢迎订阅Youtube破解资源君) 44
       - 欧洲(欢迎订阅Youtube破解资源君) 45
@@ -528,23 +803,91 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 48
       - 欧洲(欢迎订阅Youtube破解资源君) 49
       - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 日本(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 台湾(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 52
       - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 美国(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 54
+      - 欧洲(欢迎订阅Youtube破解资源君) 55
+      - 欧洲(欢迎订阅Youtube破解资源君) 56
+      - 欧洲(欢迎订阅Youtube破解资源君) 57
+      - 欧洲(欢迎订阅Youtube破解资源君) 58
+      - 欧洲(欢迎订阅Youtube破解资源君) 59
+      - 欧洲(欢迎订阅Youtube破解资源君) 60
+      - 欧洲(欢迎订阅Youtube破解资源君) 61
+      - 欧洲(欢迎订阅Youtube破解资源君) 62
+      - 欧洲(欢迎订阅Youtube破解资源君) 63
+      - 欧洲(欢迎订阅Youtube破解资源君) 64
+      - 欧洲(欢迎订阅Youtube破解资源君) 65
+      - 欧洲(欢迎订阅Youtube破解资源君) 66
+      - 欧洲(欢迎订阅Youtube破解资源君) 67
+      - 欧洲(欢迎订阅Youtube破解资源君) 68
+      - 欧洲(欢迎订阅Youtube破解资源君) 69
+      - 欧洲(欢迎订阅Youtube破解资源君) 70
+      - 欧洲(欢迎订阅Youtube破解资源君) 71
+      - 欧洲(欢迎订阅Youtube破解资源君) 72
+      - 欧洲(欢迎订阅Youtube破解资源君) 73
+      - 欧洲(欢迎订阅Youtube破解资源君) 74
+      - 欧洲(欢迎订阅Youtube破解资源君) 75
+      - 欧洲(欢迎订阅Youtube破解资源君) 76
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 3
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 4
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 5
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 6
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 7
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 8
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 9
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 10
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 11
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 12
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 13
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 14
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 15
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 16
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 17
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 20
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 21
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 22
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 23
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 24
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 26
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -552,16 +895,11 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 台湾(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 13
       - 欧洲(欢迎订阅Youtube破解资源君) 14
       - 欧洲(欢迎订阅Youtube破解资源君) 15
@@ -571,27 +909,17 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 19
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
       - 欧洲(欢迎订阅Youtube破解资源君) 25
       - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 香港(欢迎订阅Youtube破解资源君) 4
-      - 香港(欢迎订阅Youtube破解资源君) 5
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 香港(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 29
       - 欧洲(欢迎订阅Youtube破解资源君) 30
       - 欧洲(欢迎订阅Youtube破解资源君) 31
       - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 香港(欢迎订阅Youtube破解资源君) 7
-      - 香港(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 33
       - 欧洲(欢迎订阅Youtube破解资源君) 34
       - 欧洲(欢迎订阅Youtube破解资源君) 35
@@ -599,11 +927,9 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 37
       - 欧洲(欢迎订阅Youtube破解资源君) 38
       - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 香港(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 40
       - 欧洲(欢迎订阅Youtube破解资源君) 41
       - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 香港(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 43
       - 欧洲(欢迎订阅Youtube破解资源君) 44
       - 欧洲(欢迎订阅Youtube破解资源君) 45
@@ -612,24 +938,92 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 48
       - 欧洲(欢迎订阅Youtube破解资源君) 49
       - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 日本(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 台湾(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 52
       - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 美国(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 54
+      - 欧洲(欢迎订阅Youtube破解资源君) 55
+      - 欧洲(欢迎订阅Youtube破解资源君) 56
+      - 欧洲(欢迎订阅Youtube破解资源君) 57
+      - 欧洲(欢迎订阅Youtube破解资源君) 58
+      - 欧洲(欢迎订阅Youtube破解资源君) 59
+      - 欧洲(欢迎订阅Youtube破解资源君) 60
+      - 欧洲(欢迎订阅Youtube破解资源君) 61
+      - 欧洲(欢迎订阅Youtube破解资源君) 62
+      - 欧洲(欢迎订阅Youtube破解资源君) 63
+      - 欧洲(欢迎订阅Youtube破解资源君) 64
+      - 欧洲(欢迎订阅Youtube破解资源君) 65
+      - 欧洲(欢迎订阅Youtube破解资源君) 66
+      - 欧洲(欢迎订阅Youtube破解资源君) 67
+      - 欧洲(欢迎订阅Youtube破解资源君) 68
+      - 欧洲(欢迎订阅Youtube破解资源君) 69
+      - 欧洲(欢迎订阅Youtube破解资源君) 70
+      - 欧洲(欢迎订阅Youtube破解资源君) 71
+      - 欧洲(欢迎订阅Youtube破解资源君) 72
+      - 欧洲(欢迎订阅Youtube破解资源君) 73
+      - 欧洲(欢迎订阅Youtube破解资源君) 74
+      - 欧洲(欢迎订阅Youtube破解资源君) 75
+      - 欧洲(欢迎订阅Youtube破解资源君) 76
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 3
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 4
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 5
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 6
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 7
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 8
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 9
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 10
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 11
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 12
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 13
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 14
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 15
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 16
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 17
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 20
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 21
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 22
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 23
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 24
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 26
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -637,16 +1031,11 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 台湾(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 13
       - 欧洲(欢迎订阅Youtube破解资源君) 14
       - 欧洲(欢迎订阅Youtube破解资源君) 15
@@ -656,27 +1045,17 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 19
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
       - 欧洲(欢迎订阅Youtube破解资源君) 25
       - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 香港(欢迎订阅Youtube破解资源君) 4
-      - 香港(欢迎订阅Youtube破解资源君) 5
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 香港(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 29
       - 欧洲(欢迎订阅Youtube破解资源君) 30
       - 欧洲(欢迎订阅Youtube破解资源君) 31
       - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 香港(欢迎订阅Youtube破解资源君) 7
-      - 香港(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 33
       - 欧洲(欢迎订阅Youtube破解资源君) 34
       - 欧洲(欢迎订阅Youtube破解资源君) 35
@@ -684,11 +1063,9 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 37
       - 欧洲(欢迎订阅Youtube破解资源君) 38
       - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 香港(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 40
       - 欧洲(欢迎订阅Youtube破解资源君) 41
       - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 香港(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 43
       - 欧洲(欢迎订阅Youtube破解资源君) 44
       - 欧洲(欢迎订阅Youtube破解资源君) 45
@@ -697,15 +1074,39 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 48
       - 欧洲(欢迎订阅Youtube破解资源君) 49
       - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 日本(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 台湾(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 52
       - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 美国(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 54
+      - 欧洲(欢迎订阅Youtube破解资源君) 55
+      - 欧洲(欢迎订阅Youtube破解资源君) 56
+      - 欧洲(欢迎订阅Youtube破解资源君) 57
+      - 欧洲(欢迎订阅Youtube破解资源君) 58
+      - 欧洲(欢迎订阅Youtube破解资源君) 59
+      - 欧洲(欢迎订阅Youtube破解资源君) 60
+      - 欧洲(欢迎订阅Youtube破解资源君) 61
+      - 欧洲(欢迎订阅Youtube破解资源君) 62
+      - 欧洲(欢迎订阅Youtube破解资源君) 63
+      - 欧洲(欢迎订阅Youtube破解资源君) 64
+      - 欧洲(欢迎订阅Youtube破解资源君) 65
+      - 欧洲(欢迎订阅Youtube破解资源君) 66
+      - 欧洲(欢迎订阅Youtube破解资源君) 67
+      - 欧洲(欢迎订阅Youtube破解资源君) 68
+      - 欧洲(欢迎订阅Youtube破解资源君) 69
+      - 欧洲(欢迎订阅Youtube破解资源君) 70
+      - 欧洲(欢迎订阅Youtube破解资源君) 71
+      - 欧洲(欢迎订阅Youtube破解资源君) 72
+      - 欧洲(欢迎订阅Youtube破解资源君) 73
+      - 欧洲(欢迎订阅Youtube破解资源君) 74
+      - 欧洲(欢迎订阅Youtube破解资源君) 75
+      - 欧洲(欢迎订阅Youtube破解资源君) 76
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -721,9 +1122,53 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
+      - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君)
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 2
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 3
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 4
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 5
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 6
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 7
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 8
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 9
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 10
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 11
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 12
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 13
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 14
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 15
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 16
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 17
+      - 🇫🇷 法国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 7
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 8
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 9
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 10
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 11
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 12
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 13
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 14
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 15
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 16
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 17
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 18
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 19
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 20
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 21
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 22
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 23
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 24
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 25
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 26
+      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
@@ -731,16 +1176,11 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 台湾(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 13
       - 欧洲(欢迎订阅Youtube破解资源君) 14
       - 欧洲(欢迎订阅Youtube破解资源君) 15
@@ -750,27 +1190,17 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 19
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
       - 欧洲(欢迎订阅Youtube破解资源君) 25
       - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 27
       - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 香港(欢迎订阅Youtube破解资源君) 4
-      - 香港(欢迎订阅Youtube破解资源君) 5
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 香港(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 29
       - 欧洲(欢迎订阅Youtube破解资源君) 30
       - 欧洲(欢迎订阅Youtube破解资源君) 31
       - 欧洲(欢迎订阅Youtube破解资源君) 32
-      - 香港(欢迎订阅Youtube破解资源君) 7
-      - 香港(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 33
       - 欧洲(欢迎订阅Youtube破解资源君) 34
       - 欧洲(欢迎订阅Youtube破解资源君) 35
@@ -778,11 +1208,9 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 37
       - 欧洲(欢迎订阅Youtube破解资源君) 38
       - 欧洲(欢迎订阅Youtube破解资源君) 39
-      - 香港(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 40
       - 欧洲(欢迎订阅Youtube破解资源君) 41
       - 欧洲(欢迎订阅Youtube破解资源君) 42
-      - 香港(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 43
       - 欧洲(欢迎订阅Youtube破解资源君) 44
       - 欧洲(欢迎订阅Youtube破解资源君) 45
@@ -791,15 +1219,39 @@ proxy-groups:
       - 欧洲(欢迎订阅Youtube破解资源君) 48
       - 欧洲(欢迎订阅Youtube破解资源君) 49
       - 欧洲(欢迎订阅Youtube破解资源君) 50
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 日本(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 51
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 台湾(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 52
       - 欧洲(欢迎订阅Youtube破解资源君) 53
-      - 美国(欢迎订阅Youtube破解资源君) 9
+      - 欧洲(欢迎订阅Youtube破解资源君) 54
+      - 欧洲(欢迎订阅Youtube破解资源君) 55
+      - 欧洲(欢迎订阅Youtube破解资源君) 56
+      - 欧洲(欢迎订阅Youtube破解资源君) 57
+      - 欧洲(欢迎订阅Youtube破解资源君) 58
+      - 欧洲(欢迎订阅Youtube破解资源君) 59
+      - 欧洲(欢迎订阅Youtube破解资源君) 60
+      - 欧洲(欢迎订阅Youtube破解资源君) 61
+      - 欧洲(欢迎订阅Youtube破解资源君) 62
+      - 欧洲(欢迎订阅Youtube破解资源君) 63
+      - 欧洲(欢迎订阅Youtube破解资源君) 64
+      - 欧洲(欢迎订阅Youtube破解资源君) 65
+      - 欧洲(欢迎订阅Youtube破解资源君) 66
+      - 欧洲(欢迎订阅Youtube破解资源君) 67
+      - 欧洲(欢迎订阅Youtube破解资源君) 68
+      - 欧洲(欢迎订阅Youtube破解资源君) 69
+      - 欧洲(欢迎订阅Youtube破解资源君) 70
+      - 欧洲(欢迎订阅Youtube破解资源君) 71
+      - 欧洲(欢迎订阅Youtube破解资源君) 72
+      - 欧洲(欢迎订阅Youtube破解资源君) 73
+      - 欧洲(欢迎订阅Youtube破解资源君) 74
+      - 欧洲(欢迎订阅Youtube破解资源君) 75
+      - 欧洲(欢迎订阅Youtube破解资源君) 76
+      - 🇯🇵 日本(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君)
+      - 🇨🇳 台湾(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 3
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君) 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
