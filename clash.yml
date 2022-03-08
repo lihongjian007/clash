@@ -181,8 +181,8 @@ proxy-groups:
       - 香港(欢迎订阅Youtube破解资源君) 3
   - name: ♻️ 自动选择
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
+    url: http://clients3.google.com/generate_204
+    interval: 500
     proxies:
       - 加拿大(欢迎订阅Youtube破解资源君)
       - 加拿大(欢迎订阅Youtube破解资源君) 2
