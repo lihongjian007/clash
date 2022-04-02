@@ -1,391 +1,1003 @@
-port: 7890
+﻿port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡, server: sg-all.licom.ga, port: 6003, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: sg-all.licom.ga}}
-  - {name: 🇭🇰 香港, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk567.fans8.xyz}}
-  - {name: 🇭🇰 香港 2, server: ca02.holiganfan.com, port: 10088, type: trojan, password: 61729199-896f-4c15-bae3-e8780b22c70c, sni: ca02.holiganfan.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 3, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk857.fans8.xyz}}
-  - {name: 🇨🇳 台湾, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}}
-  - {name: 🇨🇳 台湾 2, server: 0319tw123.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319tw123.fans8.xyz}}
-  - {name: 🇨🇳 台湾 3, server: 0322tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /nl, ws-headers: {Host: 0322tw.fans8.xyz}}
-  - {name: 🇨🇳 台湾 4, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}}
-  - {name: 🇯🇵 日本, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 2, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 3, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 0320jp.fans8.xyz}}
-  - {name: 🇯🇵 日本 4, server: V2-NODE-1.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 122b9200-c5e0-4003-836c-973eef59b6b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-1.GFWAIRPORT.NET}}
-  - {name: 🇯🇵 日本 5, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 6, server: hk-az-zz.licom.ga, port: 48211, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, sni: hk-az-zz.licom.ga, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 7, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇪🇺 欧洲, server: 172.99.190.92, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇪🇺 欧洲 2, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇪🇺 欧洲 3, server: tj-node-4.gfwairport.net, port: 50001, type: trojan, password: 122b9200-c5e0-4003-836c-973eef59b6b2, sni: tj-node-4.gfwairport.net, skip-cert-verify: false}
-  - {name: 🇪🇺 欧洲 4, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}}
-  - {name: 🇪🇺 欧洲 5, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇪🇺 欧洲 6, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 0326hk01.fans8.xyz}}
-  - {name: 🇪🇺 欧洲 7, server: vs.mumi.bid, port: 10124, type: vmess, uuid: 0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: vs.mumi.bid}}
-  - {name: 🇪🇺 欧洲 8, server: 104.19.3.23, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /chaug, ws-headers: {Host: v2fly.samrt.website}}
-  - {name: 🇪🇺 欧洲 9, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇪🇺 欧洲 10, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: false}
-  - {name: 🇪🇺 欧洲 11, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /chaug, ws-headers: {Host: v2fly.samrt.website}}
-  - {name: 🇪🇺 欧洲 12, server: 167.88.63.108, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇪🇺 欧洲 13, server: 167.88.63.108, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 美国 2, server: 183.240.132.27, port: 13823, type: vmess, uuid: 88106789-affc-3366-a7e6-f8fb34308b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: v2ray, ws-headers: {Host: 183.240.132.27}}
-  - {name: 🇺🇸 美国 3, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}}
-  - {name: 🇺🇸 美国 4, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: san.515223.xyz}}
-  - {name: 🇺🇸 美国 5, server: sg-do.licom.ga, port: 62010, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, sni: sg-do.licom.ga, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 6, server: 20.214.185.230, port: 1838, type: vmess, uuid: 88117178-afb4-4edb-d070-dcaae25f79d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 7, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国 8, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 9, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 美国 10, server: 172.99.190.92, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 美国 11, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 12, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 13, server: us1.qingyun123.xyz, port: 10050, type: trojan, password: 8f9450ad-37bc-4252-a942-2c64357182b6, sni: us1.qingyun123.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 14, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: 8f9450ad-37bc-4252-a942-2c64357182b6, sni: kr1.qingyun123.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 15, server: de1.qingyun123.xyz, port: 10050, type: trojan, password: 12776c89-c8c0-4f3f-b95d-ca5822eef538, sni: de1.qingyun123.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 16, server: de1.qingyun123.xyz, port: 10050, type: trojan, password: 8f9450ad-37bc-4252-a942-2c64357182b6, sni: de1.qingyun123.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 17, server: us1.qingyun123.xyz, port: 10050, type: trojan, password: 12776c89-c8c0-4f3f-b95d-ca5822eef538, sni: us1.qingyun123.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 18, server: 172.99.190.92, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇰🇷 韩国, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇰🇷 韩国 2, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 0326kr.fans8.xyz}}
+  - {name: 印度, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: telegram.channel.ripaojiedian}, udp: true}
+  - {name: 亚洲, server: cn-cu-2.sgdns.club, port: 11190, type: vmess, uuid: 2dc10784-c7fb-377d-a579-2b541eb16d7b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /114514.apk, ws-headers: {Host: cn-cu-2.sgdns.club}, udp: true}
+  - {name: 亚洲 2, server: mc.xiaohouzi.club, port: 28325, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 3, server: mc.xiaohouzi.club, port: 28323, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 4, server: bgp.xiaohouzi.club, port: 28530, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 5, server: bgp.xiaohouzi.club, port: 28529, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 6, server: mc.xiaohouzi.club, port: 28321, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 7, server: sh.xiaohouzi.club, port: 17902, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: sh.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 8, server: sh.xiaohouzi.club, port: 17902, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: sh.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 9, server: bgp.xiaohouzi.club, port: 28516, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 10, server: mc.xiaohouzi.club, port: 28118, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 11, server: bgp.xiaohouzi.club, port: 28523, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 12, server: bgp.xiaohouzi.club, port: 28521, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 13, server: bgp.xiaohouzi.club, port: 28518, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 14, server: mc.xiaohouzi.club, port: 28324, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
+  - {name: 亚洲 15, server: bgp.xiaohouzi.club, port: 28522, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 香港, server: azhk097.xiaohouzi.club, port: 443, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: azhk097.xiaohouzi.club}, udp: true}
+  - {name: 香港 2, server: awv094.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
+  - {name: 香港 3, server: azhk099.xiaohouzi.club, port: 10089, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: azhk099.xiaohouzi.club}, udp: true}
+  - {name: 香港 4, server: azhk097.xiaohouzi.club, port: 443, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: azhk097.xiaohouzi.club}, udp: true}
+  - {name: 香港 5, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-v1.sdgdn.com}, udp: true}
+  - {name: 香港 6, server: shk01.xiaohouzi.club, port: 10050, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
+  - {name: 香港 7, server: azhk099.xiaohouzi.club, port: 10089, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: azhk099.xiaohouzi.club}, udp: true}
+  - {name: 香港 8, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk567.fans8.xyz}, udp: true}
+  - {name: 香港 9, server: aws-hk02.xiaohouzi.club, port: 10081, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aws-hk02.xiaohouzi.club}, udp: true}
+  - {name: 香港 10, server: azhk091.xiaohouzi.club, port: 10030, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: azhk091.xiaohouzi.club}, udp: true}
+  - {name: 香港 11, server: aws-hk03.xiaohouzi.club, port: 10050, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aws-hk03.xiaohouzi.club}, udp: true}
+  - {name: 香港 12, server: aws-hk03.xiaohouzi.club, port: 10050, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aws-hk03.xiaohouzi.club}, udp: true}
+  - {name: 香港 13, server: azhk091.xiaohouzi.club, port: 10030, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: azhk091.xiaohouzi.club}, udp: true}
+  - {name: 香港 14, server: azhk098.xiaohouzi.club, port: 10090, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: azhk098.xiaohouzi.club}, udp: true}
+  - {name: 香港 15, server: azhk02.xiaohouzi.club, port: 443, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: azhk02.xiaohouzi.club}, udp: true}
+  - {name: 香港 16, server: hk-azure02.xiaohouzi.club, port: 10051, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: hk-azure02.xiaohouzi.club}, udp: true}
+  - {name: 香港 17, server: hk-azure02.xiaohouzi.club, port: 10051, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: hk-azure02.xiaohouzi.club}, udp: true}
+  - {name: 香港 18, server: aws-hk06.xiaohouzi.club, port: 443, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aws-hk06.xiaohouzi.club}, udp: true}
+  - {name: 香港 19, server: api.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 香港 20, server: aws-hk02.xiaohouzi.club, port: 10081, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: aws-hk02.xiaohouzi.club}, udp: true}
+  - {name: 香港 21, server: azhk02.xiaohouzi.club, port: 443, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: azhk02.xiaohouzi.club}, udp: true}
+  - {name: 香港 22, server: nazhk03.xiaohouzi.club, port: 10030, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: nazhk03.xiaohouzi.club}, udp: true}
+  - {name: 香港 23, server: azure-hk-1.forwardserver.xyz, port: 45794, type: vmess, uuid: d7128f25-db35-41f9-91e1-720ac0f68509, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /flover, ws-headers: {Host: sg.cnnp.tk}, udp: true}
+  - {name: 香港 24, server: azhk003.xiaohouzi.club, port: 10051, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
+  - {name: 香港 25, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk857.fans8.xyz}, udp: true}
+  - {name: 日本, server: bgp.xiaohouzi.club, port: 28530, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 日本 2, server: azhk096.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
+  - {name: 日本 3, server: mc.xiaohouzi.club, port: 28324, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
+  - {name: 日本 4, server: bgp.xiaohouzi.club, port: 28518, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 日本 5, server: mc.xiaohouzi.club, port: 28325, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
+  - {name: 日本 6, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320jp.fans8.xyz}, udp: true}
+  - {name: 日本 7, server: bgp.xiaohouzi.club, port: 28529, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 日本 8, server: jp01-tls-vm0.entry.ikuuu.casa, port: 889, type: vmess, uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp01-tls-vm0.entry.vm-pass.org}, udp: true}
+  - {name: 日本 9, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本 10, server: jp01-vm0.entry.ikuuu.casa, port: 444, type: vmess, uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp01-vm0.entry.ikuuu.casa}, udp: true}
+  - {name: 日本 11, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: jp.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 日本 12, server: bgp.xiaohouzi.club, port: 28523, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 日本 13, server: jp02-vm0.ikuuu.casa, port: 444, type: vmess, uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp02-vm0.ikuuu.casa}, udp: true}
+  - {name: 日本 14, server: mc.xiaohouzi.club, port: 28323, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
+  - {name: 日本 15, server: jp06-vm0.entry.ikuuu.casa, port: 444, type: vmess, uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp06-vm0.entry.ikuuu.casa}, udp: true}
+  - {name: 欧洲, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 2, server: 134.195.196.51, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 3, server: 134.195.196.51, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲 4, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}, udp: true}
+  - {name: 欧洲 5, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 欧洲 6, server: 134.195.196.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲 7, server: 134.195.196.51, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲 8, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲 9, server: awv093.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: awv093.xiaohouzi.club}, udp: true}
+  - {name: 欧洲 10, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 欧洲 11, server: 54.199.233.160, port: 153, type: vmess, uuid: f92834d1-64c0-3e72-bb02-d8e5f5694e4d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: 8505782627.laowanxiang.com}, udp: true}
+  - {name: 欧洲 12, server: azhk098.xiaohouzi.club, port: 10090, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: azhk098.xiaohouzi.club}, udp: true}
+  - {name: 欧洲 13, server: awv093.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: awv093.xiaohouzi.club}, udp: true}
+  - {name: 欧洲 14, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 欧洲 15, server: 165.154.225.176, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0326hk01.fans8.xyz}, udp: true}
+  - {name: 欧洲 16, server: 134.195.196.51, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 欧洲 17, server: 165.154.225.231, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330hk02.fans8.xyz}, udp: true}
+  - {name: 欧洲 18, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲 19, server: nazhk03.xiaohouzi.club, port: 10030, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: nazhk03.xiaohouzi.club}, udp: true}
+  - {name: 欧洲 20, server: 134.195.196.51, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国, server: aead.tls.sksuper.dnsfree.top, port: 12320, type: vmess, uuid: 40ed2e01-e371-4ff0-8026-08676c40e37e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aead.tls.sksuper.dnsfree.top}, udp: true}
+  - {name: 美国 2, server: 104.17.103.125, port: 80, type: vmess, uuid: e46835e3-b770-4d5b-8ba0-5507f8385c44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wwwnet, ws-headers: {Host: caa.ziyun.ga}, udp: true}
+  - {name: 美国 3, server: 134.195.196.51, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国 4, server: sg1.qingyun123.xyz, port: 443, type: trojan, password: 32cbd76d-3b0a-4f44-b7ef-98d41db730f6, sni: sg1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 5, server: aead.tls.sksuper.dnsfree.top, port: 12324, type: vmess, uuid: 40ed2e01-e371-4ff0-8026-08676c40e37e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aead.tls.sksuper.dnsfree.top}, udp: true}
+  - {name: 美国 6, server: us06.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: us06.xiaohouzi.club}, udp: true}
+  - {name: 美国 7, server: us06.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: us06.xiaohouzi.club}, udp: true}
+  - {name: 美国 8, server: bgp.xiaohouzi.club, port: 28521, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 美国 9, server: mc.xiaohouzi.club, port: 28118, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
+  - {name: 美国 10, server: bgp.xiaohouzi.club, port: 28516, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 美国 11, server: 91.90.195.47, port: 28096, type: ss, cipher: aes-256-gcm, password: sMyA7g3B8Vf4V9ny, udp: true}
+  - {name: 美国 12, server: mc.xiaohouzi.club, port: 28321, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
+  - {name: 美国 13, server: bgp.xiaohouzi.club, port: 28522, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bgp.xiaohouzi.club}, udp: true}
+  - {name: 美国 14, server: 155.94.235.108, port: 64132, type: ss, cipher: aes-256-gcm, password: dfMsIC3vOiUhM9tP, udp: true}
+  - {name: 美国 15, server: 158.247.224.121, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国 16, server: 158.247.224.121, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国 17, server: 158.247.224.121, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国 18, server: us04.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: us04.xiaohouzi.club}, udp: true}
+  - {name: 美国 19, server: us04.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: us04.xiaohouzi.club}, udp: true}
+  - {name: 美国 20, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chaug, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: 美国 21, server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, sni: jgwdj1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国 22, server: us2.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 美国 23, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: 69f6d882-799e-4f08-a47a-2bfcbfb3271a, sni: yin1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 24, server: us.pr.xiaocai.ga, port: 443, type: trojan, password: cW3q2r8zly, sni: us.pr.xiaocai.ga, skip-cert-verify: true, udp: true}
+  - {name: 美国 25, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}, udp: true}
+  - {name: 美国 26, server: us2.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 美国 27, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 韩国 2, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0326kr.fans8.xyz}, udp: true}
+  - {name: 俄罗斯, server: vv01.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: vv01.xiaohouzi.club}, udp: true}
+  - {name: 俄罗斯 2, server: uk.london1.vpntester.net, port: 15256, type: ss, cipher: chacha20-ietf-poly1305, password: 4SGLMZ7Z83fN, udp: true}
+  - {name: 俄罗斯 3, server: v2-r02.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
+  - {name: 俄罗斯 4, server: azhk01.xiaohouzi.club, port: 10050, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.ibm.com}, udp: true}
+  - {name: 俄罗斯 5, server: v2-r03.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: v2-r03.xiaohouzi.club}, udp: true}
+  - {name: 俄罗斯 6, server: v2-r01.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: v2-r01.xiaohouzi.club}, udp: true}
+  - {name: 俄罗斯 7, server: v2-r01.xiaohouzi.club, port: 10082, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: v2-r01.xiaohouzi.club}, udp: true}
+  - {name: 俄罗斯 8, server: v2-r03.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: v2-r03.xiaohouzi.club}, udp: true}
+  - {name: 俄罗斯 9, server: vv01.xiaohouzi.club, port: 10083, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: vv01.xiaohouzi.club}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇯🇵 日本 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 🇪🇺 欧洲
-      - 🇪🇺 欧洲 2
-      - 🇪🇺 欧洲 3
-      - 🇪🇺 欧洲 4
-      - 🇪🇺 欧洲 5
-      - 🇪🇺 欧洲 6
-      - 🇪🇺 欧洲 7
-      - 🇪🇺 欧洲 8
-      - 🇪🇺 欧洲 9
-      - 🇪🇺 欧洲 10
-      - 🇪🇺 欧洲 11
-      - 🇪🇺 欧洲 12
-      - 🇪🇺 欧洲 13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇰🇷 韩国
-      - 🇰🇷 韩国 2
+      - 印度
+      - 亚洲
+      - 亚洲 2
+      - 亚洲 3
+      - 亚洲 4
+      - 亚洲 5
+      - 亚洲 6
+      - 亚洲 7
+      - 亚洲 8
+      - 亚洲 9
+      - 亚洲 10
+      - 亚洲 11
+      - 亚洲 12
+      - 亚洲 13
+      - 亚洲 14
+      - 亚洲 15
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 14
+      - 香港 15
+      - 香港 16
+      - 香港 17
+      - 香港 18
+      - 香港 19
+      - 香港 20
+      - 香港 21
+      - 香港 22
+      - 香港 23
+      - 香港 24
+      - 香港 25
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 日本 9
+      - 日本 10
+      - 日本 11
+      - 日本 12
+      - 日本 13
+      - 日本 14
+      - 日本 15
+      - 欧洲
+      - 欧洲 2
+      - 欧洲 3
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
+      - 欧洲 7
+      - 欧洲 8
+      - 欧洲 9
+      - 欧洲 10
+      - 欧洲 11
+      - 欧洲 12
+      - 欧洲 13
+      - 欧洲 14
+      - 欧洲 15
+      - 欧洲 16
+      - 欧洲 17
+      - 欧洲 18
+      - 欧洲 19
+      - 欧洲 20
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 韩国
+      - 韩国 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - 俄罗斯 7
+      - 俄罗斯 8
+      - 俄罗斯 9
   - name: ♻️ 自动选择
     type: url-test
-    url: http://clients3.google.com/generate_204
+    url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇯🇵 日本 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 🇪🇺 欧洲
-      - 🇪🇺 欧洲 2
-      - 🇪🇺 欧洲 3
-      - 🇪🇺 欧洲 4
-      - 🇪🇺 欧洲 5
-      - 🇪🇺 欧洲 6
-      - 🇪🇺 欧洲 7
-      - 🇪🇺 欧洲 8
-      - 🇪🇺 欧洲 9
-      - 🇪🇺 欧洲 10
-      - 🇪🇺 欧洲 11
-      - 🇪🇺 欧洲 12
-      - 🇪🇺 欧洲 13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇰🇷 韩国
-      - 🇰🇷 韩国 2
+      - 印度
+      - 亚洲
+      - 亚洲 2
+      - 亚洲 3
+      - 亚洲 4
+      - 亚洲 5
+      - 亚洲 6
+      - 亚洲 7
+      - 亚洲 8
+      - 亚洲 9
+      - 亚洲 10
+      - 亚洲 11
+      - 亚洲 12
+      - 亚洲 13
+      - 亚洲 14
+      - 亚洲 15
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 14
+      - 香港 15
+      - 香港 16
+      - 香港 17
+      - 香港 18
+      - 香港 19
+      - 香港 20
+      - 香港 21
+      - 香港 22
+      - 香港 23
+      - 香港 24
+      - 香港 25
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 日本 9
+      - 日本 10
+      - 日本 11
+      - 日本 12
+      - 日本 13
+      - 日本 14
+      - 日本 15
+      - 欧洲
+      - 欧洲 2
+      - 欧洲 3
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
+      - 欧洲 7
+      - 欧洲 8
+      - 欧洲 9
+      - 欧洲 10
+      - 欧洲 11
+      - 欧洲 12
+      - 欧洲 13
+      - 欧洲 14
+      - 欧洲 15
+      - 欧洲 16
+      - 欧洲 17
+      - 欧洲 18
+      - 欧洲 19
+      - 欧洲 20
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 韩国
+      - 韩国 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - 俄罗斯 7
+      - 俄罗斯 8
+      - 俄罗斯 9
+  - name: 🎥 NETFLIX
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 印度
+      - 亚洲
+      - 亚洲 2
+      - 亚洲 3
+      - 亚洲 4
+      - 亚洲 5
+      - 亚洲 6
+      - 亚洲 7
+      - 亚洲 8
+      - 亚洲 9
+      - 亚洲 10
+      - 亚洲 11
+      - 亚洲 12
+      - 亚洲 13
+      - 亚洲 14
+      - 亚洲 15
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 14
+      - 香港 15
+      - 香港 16
+      - 香港 17
+      - 香港 18
+      - 香港 19
+      - 香港 20
+      - 香港 21
+      - 香港 22
+      - 香港 23
+      - 香港 24
+      - 香港 25
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 日本 9
+      - 日本 10
+      - 日本 11
+      - 日本 12
+      - 日本 13
+      - 日本 14
+      - 日本 15
+      - 欧洲
+      - 欧洲 2
+      - 欧洲 3
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
+      - 欧洲 7
+      - 欧洲 8
+      - 欧洲 9
+      - 欧洲 10
+      - 欧洲 11
+      - 欧洲 12
+      - 欧洲 13
+      - 欧洲 14
+      - 欧洲 15
+      - 欧洲 16
+      - 欧洲 17
+      - 欧洲 18
+      - 欧洲 19
+      - 欧洲 20
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 韩国
+      - 韩国 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - 俄罗斯 7
+      - 俄罗斯 8
+      - 俄罗斯 9
+  - name: ⛔️ 广告拦截
+    type: select
+    proxies:
+      - 🛑 全球拦截
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🚫 运营劫持
+    type: select
+    proxies:
+      - 🛑 全球拦截
+      - 🎯 全球直连
+      - 🔰 节点选择
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇯🇵 日本 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 🇪🇺 欧洲
-      - 🇪🇺 欧洲 2
-      - 🇪🇺 欧洲 3
-      - 🇪🇺 欧洲 4
-      - 🇪🇺 欧洲 5
-      - 🇪🇺 欧洲 6
-      - 🇪🇺 欧洲 7
-      - 🇪🇺 欧洲 8
-      - 🇪🇺 欧洲 9
-      - 🇪🇺 欧洲 10
-      - 🇪🇺 欧洲 11
-      - 🇪🇺 欧洲 12
-      - 🇪🇺 欧洲 13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇰🇷 韩国
-      - 🇰🇷 韩国 2
+      - 印度
+      - 亚洲
+      - 亚洲 2
+      - 亚洲 3
+      - 亚洲 4
+      - 亚洲 5
+      - 亚洲 6
+      - 亚洲 7
+      - 亚洲 8
+      - 亚洲 9
+      - 亚洲 10
+      - 亚洲 11
+      - 亚洲 12
+      - 亚洲 13
+      - 亚洲 14
+      - 亚洲 15
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 14
+      - 香港 15
+      - 香港 16
+      - 香港 17
+      - 香港 18
+      - 香港 19
+      - 香港 20
+      - 香港 21
+      - 香港 22
+      - 香港 23
+      - 香港 24
+      - 香港 25
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 日本 9
+      - 日本 10
+      - 日本 11
+      - 日本 12
+      - 日本 13
+      - 日本 14
+      - 日本 15
+      - 欧洲
+      - 欧洲 2
+      - 欧洲 3
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
+      - 欧洲 7
+      - 欧洲 8
+      - 欧洲 9
+      - 欧洲 10
+      - 欧洲 11
+      - 欧洲 12
+      - 欧洲 13
+      - 欧洲 14
+      - 欧洲 15
+      - 欧洲 16
+      - 欧洲 17
+      - 欧洲 18
+      - 欧洲 19
+      - 欧洲 20
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 韩国
+      - 韩国 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - 俄罗斯 7
+      - 俄罗斯 8
+      - 俄罗斯 9
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 14
+      - 香港 15
+      - 香港 16
+      - 香港 17
+      - 香港 18
+      - 香港 19
+      - 香港 20
+      - 香港 21
+      - 香港 22
+      - 香港 23
+      - 香港 24
+      - 香港 25
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇯🇵 日本 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 🇪🇺 欧洲
-      - 🇪🇺 欧洲 2
-      - 🇪🇺 欧洲 3
-      - 🇪🇺 欧洲 4
-      - 🇪🇺 欧洲 5
-      - 🇪🇺 欧洲 6
-      - 🇪🇺 欧洲 7
-      - 🇪🇺 欧洲 8
-      - 🇪🇺 欧洲 9
-      - 🇪🇺 欧洲 10
-      - 🇪🇺 欧洲 11
-      - 🇪🇺 欧洲 12
-      - 🇪🇺 欧洲 13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇰🇷 韩国
-      - 🇰🇷 韩国 2
+      - 印度
+      - 亚洲
+      - 亚洲 2
+      - 亚洲 3
+      - 亚洲 4
+      - 亚洲 5
+      - 亚洲 6
+      - 亚洲 7
+      - 亚洲 8
+      - 亚洲 9
+      - 亚洲 10
+      - 亚洲 11
+      - 亚洲 12
+      - 亚洲 13
+      - 亚洲 14
+      - 亚洲 15
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 14
+      - 香港 15
+      - 香港 16
+      - 香港 17
+      - 香港 18
+      - 香港 19
+      - 香港 20
+      - 香港 21
+      - 香港 22
+      - 香港 23
+      - 香港 24
+      - 香港 25
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 日本 9
+      - 日本 10
+      - 日本 11
+      - 日本 12
+      - 日本 13
+      - 日本 14
+      - 日本 15
+      - 欧洲
+      - 欧洲 2
+      - 欧洲 3
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
+      - 欧洲 7
+      - 欧洲 8
+      - 欧洲 9
+      - 欧洲 10
+      - 欧洲 11
+      - 欧洲 12
+      - 欧洲 13
+      - 欧洲 14
+      - 欧洲 15
+      - 欧洲 16
+      - 欧洲 17
+      - 欧洲 18
+      - 欧洲 19
+      - 欧洲 20
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 韩国
+      - 韩国 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - 俄罗斯 7
+      - 俄罗斯 8
+      - 俄罗斯 9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇯🇵 日本 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 🇪🇺 欧洲
-      - 🇪🇺 欧洲 2
-      - 🇪🇺 欧洲 3
-      - 🇪🇺 欧洲 4
-      - 🇪🇺 欧洲 5
-      - 🇪🇺 欧洲 6
-      - 🇪🇺 欧洲 7
-      - 🇪🇺 欧洲 8
-      - 🇪🇺 欧洲 9
-      - 🇪🇺 欧洲 10
-      - 🇪🇺 欧洲 11
-      - 🇪🇺 欧洲 12
-      - 🇪🇺 欧洲 13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇰🇷 韩国
-      - 🇰🇷 韩国 2
+      - 印度
+      - 亚洲
+      - 亚洲 2
+      - 亚洲 3
+      - 亚洲 4
+      - 亚洲 5
+      - 亚洲 6
+      - 亚洲 7
+      - 亚洲 8
+      - 亚洲 9
+      - 亚洲 10
+      - 亚洲 11
+      - 亚洲 12
+      - 亚洲 13
+      - 亚洲 14
+      - 亚洲 15
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 14
+      - 香港 15
+      - 香港 16
+      - 香港 17
+      - 香港 18
+      - 香港 19
+      - 香港 20
+      - 香港 21
+      - 香港 22
+      - 香港 23
+      - 香港 24
+      - 香港 25
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 日本 9
+      - 日本 10
+      - 日本 11
+      - 日本 12
+      - 日本 13
+      - 日本 14
+      - 日本 15
+      - 欧洲
+      - 欧洲 2
+      - 欧洲 3
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
+      - 欧洲 7
+      - 欧洲 8
+      - 欧洲 9
+      - 欧洲 10
+      - 欧洲 11
+      - 欧洲 12
+      - 欧洲 13
+      - 欧洲 14
+      - 欧洲 15
+      - 欧洲 16
+      - 欧洲 17
+      - 欧洲 18
+      - 欧洲 19
+      - 欧洲 20
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 韩国
+      - 韩国 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - 俄罗斯 7
+      - 俄罗斯 8
+      - 俄罗斯 9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇯🇵 日本 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 🇪🇺 欧洲
-      - 🇪🇺 欧洲 2
-      - 🇪🇺 欧洲 3
-      - 🇪🇺 欧洲 4
-      - 🇪🇺 欧洲 5
-      - 🇪🇺 欧洲 6
-      - 🇪🇺 欧洲 7
-      - 🇪🇺 欧洲 8
-      - 🇪🇺 欧洲 9
-      - 🇪🇺 欧洲 10
-      - 🇪🇺 欧洲 11
-      - 🇪🇺 欧洲 12
-      - 🇪🇺 欧洲 13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇰🇷 韩国
-      - 🇰🇷 韩国 2
+      - 印度
+      - 亚洲
+      - 亚洲 2
+      - 亚洲 3
+      - 亚洲 4
+      - 亚洲 5
+      - 亚洲 6
+      - 亚洲 7
+      - 亚洲 8
+      - 亚洲 9
+      - 亚洲 10
+      - 亚洲 11
+      - 亚洲 12
+      - 亚洲 13
+      - 亚洲 14
+      - 亚洲 15
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 14
+      - 香港 15
+      - 香港 16
+      - 香港 17
+      - 香港 18
+      - 香港 19
+      - 香港 20
+      - 香港 21
+      - 香港 22
+      - 香港 23
+      - 香港 24
+      - 香港 25
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 日本 9
+      - 日本 10
+      - 日本 11
+      - 日本 12
+      - 日本 13
+      - 日本 14
+      - 日本 15
+      - 欧洲
+      - 欧洲 2
+      - 欧洲 3
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
+      - 欧洲 7
+      - 欧洲 8
+      - 欧洲 9
+      - 欧洲 10
+      - 欧洲 11
+      - 欧洲 12
+      - 欧洲 13
+      - 欧洲 14
+      - 欧洲 15
+      - 欧洲 16
+      - 欧洲 17
+      - 欧洲 18
+      - 欧洲 19
+      - 欧洲 20
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 韩国
+      - 韩国 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - 俄罗斯 7
+      - 俄罗斯 8
+      - 俄罗斯 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -401,54 +1013,120 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇯🇵 日本
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 4
-      - 🇯🇵 日本 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 🇪🇺 欧洲
-      - 🇪🇺 欧洲 2
-      - 🇪🇺 欧洲 3
-      - 🇪🇺 欧洲 4
-      - 🇪🇺 欧洲 5
-      - 🇪🇺 欧洲 6
-      - 🇪🇺 欧洲 7
-      - 🇪🇺 欧洲 8
-      - 🇪🇺 欧洲 9
-      - 🇪🇺 欧洲 10
-      - 🇪🇺 欧洲 11
-      - 🇪🇺 欧洲 12
-      - 🇪🇺 欧洲 13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇰🇷 韩国
-      - 🇰🇷 韩国 2
+      - 印度
+      - 亚洲
+      - 亚洲 2
+      - 亚洲 3
+      - 亚洲 4
+      - 亚洲 5
+      - 亚洲 6
+      - 亚洲 7
+      - 亚洲 8
+      - 亚洲 9
+      - 亚洲 10
+      - 亚洲 11
+      - 亚洲 12
+      - 亚洲 13
+      - 亚洲 14
+      - 亚洲 15
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 香港 12
+      - 香港 13
+      - 香港 14
+      - 香港 15
+      - 香港 16
+      - 香港 17
+      - 香港 18
+      - 香港 19
+      - 香港 20
+      - 香港 21
+      - 香港 22
+      - 香港 23
+      - 香港 24
+      - 香港 25
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 日本 9
+      - 日本 10
+      - 日本 11
+      - 日本 12
+      - 日本 13
+      - 日本 14
+      - 日本 15
+      - 欧洲
+      - 欧洲 2
+      - 欧洲 3
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
+      - 欧洲 7
+      - 欧洲 8
+      - 欧洲 9
+      - 欧洲 10
+      - 欧洲 11
+      - 欧洲 12
+      - 欧洲 13
+      - 欧洲 14
+      - 欧洲 15
+      - 欧洲 16
+      - 欧洲 17
+      - 欧洲 18
+      - 欧洲 19
+      - 欧洲 20
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 美国 12
+      - 美国 13
+      - 美国 14
+      - 美国 15
+      - 美国 16
+      - 美国 17
+      - 美国 18
+      - 美国 19
+      - 美国 20
+      - 美国 21
+      - 美国 22
+      - 美国 23
+      - 美国 24
+      - 美国 25
+      - 美国 26
+      - 美国 27
+      - 韩国
+      - 韩国 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - 俄罗斯 7
+      - 俄罗斯 8
+      - 俄罗斯 9
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -9439,6 +10117,37 @@ rules:
  - DOMAIN-SUFFIX,yuanchengxiezuo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zbrushcn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhzzx.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,netflix.com,🎥 NETFLIX
+ - DOMAIN-SUFFIX,netflix.net,🎥 NETFLIX
+ - DOMAIN-SUFFIX,nflxext.com,🎥 NETFLIX
+ - DOMAIN-SUFFIX,nflximg.com,🎥 NETFLIX
+ - DOMAIN-SUFFIX,nflximg.net,🎥 NETFLIX
+ - DOMAIN-SUFFIX,nflxso.net,🎥 NETFLIX
+ - DOMAIN-SUFFIX,nflxvideo.net,🎥 NETFLIX
+ - DOMAIN-SUFFIX,netflixdnstest0.com,🎥 NETFLIX
+ - DOMAIN-SUFFIX,netflixdnstest1.com,🎥 NETFLIX
+ - DOMAIN-SUFFIX,netflixdnstest2.com,🎥 NETFLIX
+ - DOMAIN-SUFFIX,netflixdnstest3.com,🎥 NETFLIX
+ - DOMAIN-SUFFIX,netflixdnstest4.com,🎥 NETFLIX
+ - DOMAIN-SUFFIX,netflixdnstest5.com,🎥 NETFLIX
+ - DOMAIN-SUFFIX,netflixdnstest6.com,🎥 NETFLIX
+ - DOMAIN-SUFFIX,netflixdnstest7.com,🎥 NETFLIX
+ - DOMAIN-SUFFIX,netflixdnstest8.com,🎥 NETFLIX
+ - DOMAIN-SUFFIX,netflixdnstest9.com,🎥 NETFLIX
+ - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 NETFLIX
+ - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 NETFLIX
+ - IP-CIDR,23.246.0.0/18,🎥 NETFLIX,no-resolve
+ - IP-CIDR,37.77.184.0/21,🎥 NETFLIX,no-resolve
+ - IP-CIDR,45.57.0.0/17,🎥 NETFLIX,no-resolve
+ - IP-CIDR,64.120.128.0/17,🎥 NETFLIX,no-resolve
+ - IP-CIDR,66.197.128.0/17,🎥 NETFLIX,no-resolve
+ - IP-CIDR,108.175.32.0/20,🎥 NETFLIX,no-resolve
+ - IP-CIDR,192.173.64.0/18,🎥 NETFLIX,no-resolve
+ - IP-CIDR,198.38.96.0/19,🎥 NETFLIX,no-resolve
+ - IP-CIDR,198.45.48.0/20,🎥 NETFLIX,no-resolve
+ - IP-CIDR,34.210.42.111/32,🎥 NETFLIX,no-resolve
+ - IP-CIDR,52.89.124.203/32,🎥 NETFLIX,no-resolve
+ - IP-CIDR,54.148.37.5/32,🎥 NETFLIX,no-resolve
  - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
