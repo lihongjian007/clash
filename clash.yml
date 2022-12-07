@@ -36,12 +36,19 @@ proxy-groups:
     url: 'http://www.google.com/generate_204' 
     interval: 300 
     strategy: consistent-hashing 
-  - name: ⚖️ 负载均衡-轮询 
-    type: load-balance 
-    url: 'http://www.google.com/generate_204' 
-    interval: 300 
-    strategy: round-robin 
-    commands: - proxy-groups.⚖️ 负载均衡-散列.proxies=[]proxyNames - proxy-groups.0.proxies.0+⚖️ 负载均衡-散列 - proxy-groups.⚖️ 负载均衡-轮询.proxies=[]proxyNames - proxy-groups.0.proxies.0+⚖️ 负载均衡-轮询
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国
+      - 🇹🇼_TW_台湾_1
+      - default_name_1
+      - 🇰🇷_KR_韩国
+      - 🇺🇸_US_美国_1
+      - 🇦🇲_AM_亚美尼亚->🇫🇷_FR_法国
+      - 🇹🇼_TW_台湾_2
+      - 🇺🇸_US_美国_2
+      - 🇹🇼_TW_台湾_3
+      - default_name_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
