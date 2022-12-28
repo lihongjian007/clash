@@ -14,32 +14,52 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
+  - {"type":"ss","name":"default_name_1","server":"V2RAY.892899273.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7rieYa","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"V2RAY.892899273.repl.co","tls":true}}
+  - {"type":"ss","name":"default_name_2","server":"V2RAY.zhongwuyang1998.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7riXtj","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"V2RAY.zhongwuyang1998.repl.co","tls":true}}
+  - {"type":"ss","name":"default_name_3","server":"bbs.YingqiLyu.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"12345Justin","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"bbs.YingqiLyu.repl.co","tls":true}}
+  - {"type":"ss","name":"default_name_4","server":"bbs.flipme.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"Z4shkQ9ff77RJ!X5","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"bbs.flipme.repl.co","tls":true}}
+  - {"type":"ss","name":"default_name_5","server":"v2ray.nbl6.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7rieYadda","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"v2ray.nbl6.repl.co","tls":true}}
+  - {"type":"ss","name":"default_name_6","server":"myv2ray.lihongjian1991.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"lihongjian","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"myv2ray.lihongjian1991.repl.co","tls":true}}
   - {"type":"trojan","name":"replit-trojan","server":"trojan.lihongjian1991.repl.co","port":443,"password":"a03b5b52","udp":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9ef4e3"}}
-  - {"type":"ss","name":"default_name","server":"myv2ray.lihongjian1991.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"lihongjian","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"myv2ray.lihongjian1991.repl.co","tls":true}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - ⚖️ 负载均衡
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
       - replit-trojan
-      - default_name
   - name: ⚖️ 负载均衡
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: consistent-hashing
     proxies:
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
       - replit-trojan
-      - default_name
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - default_name_1
+      - default_name_2
+      - default_name_3
+      - default_name_4
+      - default_name_5
+      - default_name_6
       - replit-trojan
-      - default_name
   - name: 🎯 全球直连
     type: select
     proxies:
