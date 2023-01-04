@@ -14,19 +14,203 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"ss","name":"default_name_1","server":"V2RAY.892899273.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7rieYa","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"V2RAY.892899273.repl.co","tls":true}}
-  - {"type":"ss","name":"default_name_2","server":"V2RAY.zhongwuyang1998.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7riXtj","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"V2RAY.zhongwuyang1998.repl.co","tls":true}}
-  - {"type":"ss","name":"default_name_3","server":"bbs.YingqiLyu.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"12345Justin","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"bbs.YingqiLyu.repl.co","tls":true}}
-  - {"type":"ss","name":"default_name_4","server":"bbs.flipme.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"Z4shkQ9ff77RJ!X5","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"bbs.flipme.repl.co","tls":true}}
-  - {"type":"ss","name":"default_name_5","server":"v2ray.nbl6.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7rieYadda","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"v2ray.nbl6.repl.co","tls":true}}
-  - {"type":"ss","name":"default_name_6","server":"myv2ray.lihongjian1991.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"lihongjian","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"myv2ray.lihongjian1991.repl.co","tls":true}}
-  - {"type":"trojan","name":"replit-trojan","server":"trojan.lihongjian1991.repl.co","port":443,"password":"a03b5b52","udp":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9ef4e3"}}
+  - {"type":"vmess","name":"🇯🇵日本_1210446","ws-opts":{"path":"/hjz124","headers":{"host":"kyo.fty708.top"}},"server":"kyo.fty708.top","port":"29582","uuid":"d1667181-eec0-49c9-924f-6589de4d2257","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬新加坡_1210371","server":"SG-244-255.shoptunnel.live","port":"31990","uuid":"a6a37e04-5e81-44c9-be53-baa3ff46eb8b","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇸🇬新加坡_1210400","ws-opts":{"path":"/","headers":{"host":"hxsg.fty708.top"}},"server":"hxsg.fty708.top","port":"23434","uuid":"d1667181-eec0-49c9-924f-6589de4d2257","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬新加坡_1210006","ws-opts":{"path":"/4Gsinhvien.me","headers":{"host":"sing1.4gsinhvien.me"}},"server":"sing1.4gsinhvien.me","port":"80","uuid":"a1a25b82-2859-490b-97ff-e0ceef4e9fde","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷[VMess]🇰🇷KR【付费推荐：goo.gs/vip】","ws-opts":{"path":"/?ed=2048","headers":{"host":"w1.800876.xyz"}},"server":"193.122.110.139","port":"80","uuid":"0f1f1cca-56dc-4feb-8b4b-50ab074f4467","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"JP_AzadNet(2)","server":"132.226.5.246","port":443,"password":"4f7dc540-d244-4e64-af21-4b5bb300add3","udp":true,"skip-cert-verify":true,"sni":"www.tokyo2023.ga"}
+  - {"type":"trojan","name":"TW_AzadNet","server":"211.72.35.158","port":3389,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TW_AzadNet(1)","server":"2.58.242.43","port":443,"password":"YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇯🇵@SSRSUB-日本V08-付费推荐dlj.tf/ssrsub","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"o08.tgfaka.com"}},"server":"http.download.yunzhongzhuan.com","port":"80","uuid":"0db0a479-8993-4e5b-a002-629e9e0b40e5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210051","ws-opts":{"path":"/s/f1f3227.fm.apple.com:111548","headers":{"host":"f1f3227.v1.glados-config.net"}},"server":"f1f3227.v1.glados-config.net","port":"3331","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210053","ws-opts":{"path":"/lXvA0Vse/"},"server":"104.29.64.24","port":"80","uuid":"3f421e27-5bf8-40c9-86cb-7b8c41dddea2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210055","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.asuka.buzz"}},"server":"http.download.yunzhongzhuan.com","port":"80","uuid":"0db0a479-8993-4e5b-a002-629e9e0b40e5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210056","ws-opts":{"path":"/ray","headers":{"host":"331tw.fans8.xyz"}},"server":"331tw.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210058","ws-opts":{"path":"/howdy","headers":{"host":"v2ray2.udpgw.com"}},"server":"220.130.80.179","port":"443","uuid":"ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210059","server":"tw-tb-c.zc20200426.club","port":"39999","uuid":"67c50f6a-816d-3555-89b4-19dd29608f8b","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210060","ws-opts":{"path":"/v2ray","headers":{"host":"0218tw02.fans8.xyz"}},"server":"0218tw02.fans8.xyz","port":"80","uuid":"5c70da5d-e641-3bf8-b7dc-5babd843ff3c","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210061","ws-opts":{"path":"/"},"server":"165.154.226.45","port":"80","uuid":"fa0702f4-8ec9-48e5-9b53-a0afb7c3717e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210062","ws-opts":{"path":"/","headers":{"host":"ru.tzccifq.ga"}},"server":"211.72.35.110","port":"443","uuid":"541ca026-58d3-48f1-d6ef-3a05543ddcb7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210063","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"tw02.henet.top","port":"20000","uuid":"35b65b31-174e-4007-ad65-8eae6d7b8c41","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210064","server":"hinet1261.gfwisbest.xyz","port":"21234","uuid":"6d896dd9-21ff-3844-a72a-332507486049","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210065","ws-opts":{"path":"/","headers":{"host":"tw-1.qwqjsq.top"}},"server":"tw-1.qwqjsq.top","port":"443","uuid":"b0543a3b-d690-3ed9-9a81-f24f852e74f7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210066","ws-opts":{"path":"/moontoday","headers":{"host":"a01-hk1.moontoday.uk"}},"server":"a01-hk1.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210067","ws-opts":{"path":"/moontoday","headers":{"host":"a08-hk1.moontoday.uk"}},"server":"a08-hk1.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210068","ws-opts":{"path":"/moontoday","headers":{"host":"a10-kor1.moontoday.uk"}},"server":"a10-kor1.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210069","ws-opts":{"path":"/moontoday","headers":{"host":"a03-jp1.moontoday.uk"}},"server":"a03-jp1.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210070","ws-opts":{"path":"/path/243535322906","headers":{"host":"www.88612860.xyz"}},"server":"61.216.85.68","port":"443","uuid":"5ba738e7-0abf-4935-b67e-d404a083d6a6","alterId":"64","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210071","ws-opts":{"path":"/","headers":{"host":"ddns2.airtcp.vip"}},"server":"ddns2.airtcp.vip","port":"10001","uuid":"7f67fb11-832d-3492-adfe-63e0cceafbe0","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210072","ws-opts":{"path":"/","headers":{"host":"tw.xlkjjs.top"}},"server":"tw.xlkjjs.top","port":"443","uuid":"0a6b7226-2f9c-393c-bc94-5a34859250c0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210073","server":"tw2.rovod.top","port":"10000","uuid":"ab42ea1f-8e2f-3fff-8a11-d124d62b849e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210074","server":"tw1.rovod.top","port":"1001","uuid":"ab42ea1f-8e2f-3fff-8a11-d124d62b849e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210075","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}},"server":"165.154.246.107","port":"80","uuid":"fa0702f4-8ec9-48e5-9b53-a0afb7c3717e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210076","ws-opts":{"path":"/kuainiao/de1","headers":{"host":"de1.kuainiao.buzz"}},"server":"104.29.64.30","port":"443","uuid":"a2c5ba68-e86a-4959-b7f3-8f8801d6370e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210078","ws-opts":{"path":"/adobe","headers":{"host":"twtp2.azzhuangaping.tw"}},"server":"twtp2.azzhuangaping.tw","port":"80","uuid":"4c4e065f-363b-3c9b-8a4d-312f6b9840d3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210080","ws-opts":{"path":"/","headers":{"host":"ws-aicdn.com"}},"server":"xt001.xmrthnode.com","port":"443","uuid":"a6c72103-b2a0-3e7f-9d49-cf378209e73b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210081","ws-opts":{"path":"/","headers":{"host":"tw02.nttkk.com"}},"server":"tw02.nttkk.com","port":"443","uuid":"3a9c0d0c-e0fd-3145-a414-ec265e7010b7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210082","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"tw01.henet.top","port":"20000","uuid":"f522480e-f7e9-4db9-bc4f-d0bd59ebd000","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210083","ws-opts":{"path":"/v2ray","headers":{"host":"tw4.594888.xyz"}},"server":"tw4.594888.xyz","port":"11463","uuid":"dd7639cf-66dd-3038-ab0e-cefe7e9ef9fb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210084","ws-opts":{"path":"/v2ray","headers":{"host":"tw3.594888.xyz"}},"server":"tw3.594888.xyz","port":"25551","uuid":"dd7639cf-66dd-3038-ab0e-cefe7e9ef9fb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210085","ws-opts":{"path":"/v2ray","headers":{"host":"tw04.ssru3.casa"}},"server":"paopao.v2.tw04.paopaocloud.cyou","port":"3306","uuid":"fb0d7a1d-0a0f-3d66-8ac5-4dd4a303b83a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210086","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v02.asuka.buzz"}},"server":"http.download.yunzhongzhuan.com","port":"80","uuid":"a4d1d3dd-5097-4dd5-93fa-9b412233174f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210087","ws-opts":{"path":"/adobe","headers":{"host":"twtp.azzhuangaping.tw"}},"server":"twtp.azzhuangaping.tw","port":"80","uuid":"4c4e065f-363b-3c9b-8a4d-312f6b9840d3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210088","server":"tw2.czs1000.com","port":"1001","uuid":"1bd772e1-ce31-4980-9cb7-a4d24873aa1b","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳台湾_1210092","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"104.29.64.25","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"JP_AzadNet(1)","server":"106.180.225.69","port":1443,"password":"7x42LetRa0","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇸🇬新加坡_1210008","server":"00000000000000000000000000000000000000000000000000000000000021a.node-for-bigairport.win","port":"52356","uuid":"15dcb118-88f6-44e8-895a-1770479ab8dc","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-12CDN","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"190.93.244.2","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-7CDN","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"203.24.108.8","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国RFEngineering12","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"141.193.213.20","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-3CDN","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"23.227.38.38","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-10CDN","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"141.101.114.32","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸[VMess]🇺🇲US【付费推荐：goo.gs/vip】9","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"main.millionaireaisle.com","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-14CDN","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"190.93.246.4","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-1CDN","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"203.30.191.193","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-15CDN","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"190.93.245.4","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶2-5CDN","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"203.30.189.190","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-13CDN","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"190.93.244.4","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-6CDN","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"203.30.188.188","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-8CDN","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"66.235.200.20","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-3CDN","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"23.227.38.40","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸[VMess]🇺🇲US【付费推荐：goo.gs/vip】8","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"34.145.145.76","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸github.com/freefq-美国CloudFlare公司CDN节点20","ws-opts":{"path":"/","headers":{"host":"amshare.jingledev.me"}},"server":"amshare.jingledev.me","port":"443","uuid":"532a5f12-cadb-46e4-963f-ee7c075e40f0","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-2CDN","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"188.114.99.9","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"US_AzadNet","server":"43.206.67.76","port":36306,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true,"sni":"sunmoon02.abzoones.xyz"}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-1CDN","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"203.30.191.191","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-13CDN","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"190.93.245.2","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"US_AzadNet(4)","server":"150.230.201.192","port":443,"password":"f42e1a2e-e650-44f4-8d17-bcb68663da18","udp":true,"skip-cert-verify":true,"sni":"www.seetheworldjp.ga"}
+  - {"type":"trojan","name":"US_AzadNet(5)","server":"150.230.249.20","port":443,"password":"b5fc9fa9-796d-4185-a316-395ecac04a85","udp":true,"skip-cert-verify":true,"sni":"www.gomacau.gq"}
+  - {"type":"vmess","name":"US_AzadNet(6)","ws-opts":{"path":"/@Backdor_Filter"},"server":"107.189.31.41","port":"12378","uuid":"9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-11CDN","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"141.101.114.30","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶2-6CDN","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"203.30.188.189","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-2CDN2","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"188.114.99.9","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-6CDN2","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"203.30.188.188","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-15CDN2","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"190.93.245.4","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-1CDN2","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"203.30.191.193","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-10CDN","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"141.101.115.30","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪[VMess]🇩🇪DE【付费推荐：goo.gs/vip】","ws-opts":{"path":"/?ed=2048","headers":{"host":"w1.800876.xyz"}},"server":"47.91.78.144","port":"80","uuid":"0f1f1cca-56dc-4feb-8b4b-50ab074f4467","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用)6","ws-opts":{"path":"/","headers":{"host":"104.18.7.138"}},"server":"104.18.7.138","port":"443","uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"ct1.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz32693","server":"ct1.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz","port":32693,"cipher":"aes-128-gcm","password":"305bba62-03fd-4346-aac9-b518f38c56aa"}
+  - {"type":"ssr","name":"SSR","server":"jp-am48-6.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"eAokbaDN6"}
+  - {"type":"vmess","name":"","ws-opts":{"path":"/fh454hg4fthfh","headers":{"host":"king6.workingoogle.ga"}},"server":"king6.workingoogle.ga","port":"8880","uuid":"050624ec-ba6a-49c3-e8d9-c46e5c167be0","alterId":"64","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"2","ws-opts":{"path":"/","headers":{"host":"cdn1.parshost.site"}},"server":"cdn1.parshost.site","port":"80","uuid":"ff2cc50d-d579-49a8-9560-cb5eaa33612f","alterId":"64","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"14.29.124.16824009","server":"14.29.124.168","port":24009,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ssr","name":"🇨🇳[SSR]🇨🇳CN【付费推荐：goo.gs/vip】","server":"eduall.buzzline.org","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"55956:111111"}
+  - {"type":"vmess","name":"🇵🇱github.com/freefq-波兰32","ws-opts":{"path":"/","headers":{"host":"91.149.202.5"}},"server":"91.149.202.5","port":"22768","uuid":"e1e8f303-5b51-415a-bf3f-898845d58322","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"_AzadNet","server":"103.176.78.153","port":443,"password":"idc117okt","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"_AzadNet(1)","server":"103.173.155.72","port":28443,"password":"6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-12CDN2","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"190.93.244.2","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"DE_AzadNet(2)","ws-opts":{"path":"/"},"server":"5.161.133.65","port":"52317","uuid":"e8dcd51e-098d-4155-d232-1438c4f40dc6","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"FR_AzadNet","server":"51.195.219.173","port":443,"password":"0f5e6d9a-49af-4bc0-b04b-503102382144","udp":true,"skip-cert-verify":true,"sni":"ukt1.sshocean.net"}
+  - {"type":"trojan","name":"GB_AzadNet","server":"185.44.76.188","port":443,"password":"8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-13CDN2","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"190.93.245.2","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-1CDN2","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"203.30.191.191","port":"443","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"default_name_1","server":"V2RAY.892899273.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7rieYa","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"V2RAY.892899273.repl.co"}}
+  - {"type":"ss","name":"default_name_2","server":"V2RAY.zhongwuyang1998.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7riXtj","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"V2RAY.zhongwuyang1998.repl.co"}}
+  - {"type":"ss","name":"default_name_3","server":"bbs.YingqiLyu.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"12345Justin","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"bbs.YingqiLyu.repl.co"}}
+  - {"type":"ss","name":"default_name_4","server":"bbs.flipme.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"Z4shkQ9ff77RJ!X5","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"bbs.flipme.repl.co"}}
+  - {"type":"ss","name":"default_name_5","server":"v2ray.nbl6.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7rieYadda","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"v2ray.nbl6.repl.co"}}
+  - {"type":"ss","name":"default_name_6","server":"myv2ray.lihongjian1991.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"lihongjian","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"myv2ray.lihongjian1991.repl.co"}}
+  - {"type":"trojan","name":"replit-trojan","server":"trojan.lihongjian1991.repl.co","port":443,"password":"a03b5b52","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - ⚖️ 负载均衡
+      - 🇯🇵日本_1210446
+      - 🇸🇬新加坡_1210371
+      - 🇸🇬新加坡_1210400
+      - 🇸🇬新加坡_1210006
+      - 🇰🇷[VMess]🇰🇷KR【付费推荐：goo.gs/vip】
+      - JP_AzadNet(2)
+      - TW_AzadNet
+      - TW_AzadNet(1)
+      - 🇯🇵@SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
+      - 🇨🇳台湾_1210051
+      - 🇨🇳台湾_1210053
+      - 🇨🇳台湾_1210055
+      - 🇨🇳台湾_1210056
+      - 🇨🇳台湾_1210058
+      - 🇨🇳台湾_1210059
+      - 🇨🇳台湾_1210060
+      - 🇨🇳台湾_1210061
+      - 🇨🇳台湾_1210062
+      - 🇨🇳台湾_1210063
+      - 🇨🇳台湾_1210064
+      - 🇨🇳台湾_1210065
+      - 🇨🇳台湾_1210066
+      - 🇨🇳台湾_1210067
+      - 🇨🇳台湾_1210068
+      - 🇨🇳台湾_1210069
+      - 🇨🇳台湾_1210070
+      - 🇨🇳台湾_1210071
+      - 🇨🇳台湾_1210072
+      - 🇨🇳台湾_1210073
+      - 🇨🇳台湾_1210074
+      - 🇨🇳台湾_1210075
+      - 🇨🇳台湾_1210076
+      - 🇨🇳台湾_1210078
+      - 🇨🇳台湾_1210080
+      - 🇨🇳台湾_1210081
+      - 🇨🇳台湾_1210082
+      - 🇨🇳台湾_1210083
+      - 🇨🇳台湾_1210084
+      - 🇨🇳台湾_1210085
+      - 🇨🇳台湾_1210086
+      - 🇨🇳台湾_1210087
+      - 🇨🇳台湾_1210088
+      - 🇨🇳台湾_1210092
+      - JP_AzadNet(1)
+      - 🇸🇬新加坡_1210008
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-12CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-7CDN
+      - 🇺🇸github.com/freefq-美国RFEngineering12
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-3CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-10CDN
+      - 🇺🇸[VMess]🇺🇲US【付费推荐：goo.gs/vip】9
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-14CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-1CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-15CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶2-5CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-13CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-6CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-8CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-3CDN
+      - 🇺🇸[VMess]🇺🇲US【付费推荐：goo.gs/vip】8
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点20
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-2CDN
+      - US_AzadNet
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-1CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-13CDN
+      - US_AzadNet(4)
+      - US_AzadNet(5)
+      - US_AzadNet(6)
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-11CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶2-6CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-2CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-6CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-15CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-1CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-10CDN
+      - 🇩🇪[VMess]🇩🇪DE【付费推荐：goo.gs/vip】
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用)6
+      - ct1.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz32693
+      - SSR
+      - ''
+      - '2'
+      - 14.29.124.16824009
+      - 🇨🇳[SSR]🇨🇳CN【付费推荐：goo.gs/vip】
+      - 🇵🇱github.com/freefq-波兰32
+      - _AzadNet
+      - _AzadNet(1)
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-12CDN2
+      - DE_AzadNet(2)
+      - FR_AzadNet
+      - GB_AzadNet
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-13CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-1CDN2
       - default_name_1
       - default_name_2
       - default_name_3
@@ -40,6 +224,98 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
+      - 🇯🇵日本_1210446
+      - 🇸🇬新加坡_1210371
+      - 🇸🇬新加坡_1210400
+      - 🇸🇬新加坡_1210006
+      - 🇰🇷[VMess]🇰🇷KR【付费推荐：goo.gs/vip】
+      - JP_AzadNet(2)
+      - TW_AzadNet
+      - TW_AzadNet(1)
+      - 🇯🇵@SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
+      - 🇨🇳台湾_1210051
+      - 🇨🇳台湾_1210053
+      - 🇨🇳台湾_1210055
+      - 🇨🇳台湾_1210056
+      - 🇨🇳台湾_1210058
+      - 🇨🇳台湾_1210059
+      - 🇨🇳台湾_1210060
+      - 🇨🇳台湾_1210061
+      - 🇨🇳台湾_1210062
+      - 🇨🇳台湾_1210063
+      - 🇨🇳台湾_1210064
+      - 🇨🇳台湾_1210065
+      - 🇨🇳台湾_1210066
+      - 🇨🇳台湾_1210067
+      - 🇨🇳台湾_1210068
+      - 🇨🇳台湾_1210069
+      - 🇨🇳台湾_1210070
+      - 🇨🇳台湾_1210071
+      - 🇨🇳台湾_1210072
+      - 🇨🇳台湾_1210073
+      - 🇨🇳台湾_1210074
+      - 🇨🇳台湾_1210075
+      - 🇨🇳台湾_1210076
+      - 🇨🇳台湾_1210078
+      - 🇨🇳台湾_1210080
+      - 🇨🇳台湾_1210081
+      - 🇨🇳台湾_1210082
+      - 🇨🇳台湾_1210083
+      - 🇨🇳台湾_1210084
+      - 🇨🇳台湾_1210085
+      - 🇨🇳台湾_1210086
+      - 🇨🇳台湾_1210087
+      - 🇨🇳台湾_1210088
+      - 🇨🇳台湾_1210092
+      - JP_AzadNet(1)
+      - 🇸🇬新加坡_1210008
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-12CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-7CDN
+      - 🇺🇸github.com/freefq-美国RFEngineering12
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-3CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-10CDN
+      - 🇺🇸[VMess]🇺🇲US【付费推荐：goo.gs/vip】9
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-14CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-1CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-15CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶2-5CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-13CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-6CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-8CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-3CDN
+      - 🇺🇸[VMess]🇺🇲US【付费推荐：goo.gs/vip】8
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点20
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-2CDN
+      - US_AzadNet
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-1CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-13CDN
+      - US_AzadNet(4)
+      - US_AzadNet(5)
+      - US_AzadNet(6)
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-11CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶2-6CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-2CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-6CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-15CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-1CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-10CDN
+      - 🇩🇪[VMess]🇩🇪DE【付费推荐：goo.gs/vip】
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用)6
+      - ct1.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz32693
+      - SSR
+      - ''
+      - '2'
+      - 14.29.124.16824009
+      - 🇨🇳[SSR]🇨🇳CN【付费推荐：goo.gs/vip】
+      - 🇵🇱github.com/freefq-波兰32
+      - _AzadNet
+      - _AzadNet(1)
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-12CDN2
+      - DE_AzadNet(2)
+      - FR_AzadNet
+      - GB_AzadNet
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-13CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-1CDN2
       - default_name_1
       - default_name_2
       - default_name_3
@@ -53,6 +329,98 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵日本_1210446
+      - 🇸🇬新加坡_1210371
+      - 🇸🇬新加坡_1210400
+      - 🇸🇬新加坡_1210006
+      - 🇰🇷[VMess]🇰🇷KR【付费推荐：goo.gs/vip】
+      - JP_AzadNet(2)
+      - TW_AzadNet
+      - TW_AzadNet(1)
+      - 🇯🇵@SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
+      - 🇨🇳台湾_1210051
+      - 🇨🇳台湾_1210053
+      - 🇨🇳台湾_1210055
+      - 🇨🇳台湾_1210056
+      - 🇨🇳台湾_1210058
+      - 🇨🇳台湾_1210059
+      - 🇨🇳台湾_1210060
+      - 🇨🇳台湾_1210061
+      - 🇨🇳台湾_1210062
+      - 🇨🇳台湾_1210063
+      - 🇨🇳台湾_1210064
+      - 🇨🇳台湾_1210065
+      - 🇨🇳台湾_1210066
+      - 🇨🇳台湾_1210067
+      - 🇨🇳台湾_1210068
+      - 🇨🇳台湾_1210069
+      - 🇨🇳台湾_1210070
+      - 🇨🇳台湾_1210071
+      - 🇨🇳台湾_1210072
+      - 🇨🇳台湾_1210073
+      - 🇨🇳台湾_1210074
+      - 🇨🇳台湾_1210075
+      - 🇨🇳台湾_1210076
+      - 🇨🇳台湾_1210078
+      - 🇨🇳台湾_1210080
+      - 🇨🇳台湾_1210081
+      - 🇨🇳台湾_1210082
+      - 🇨🇳台湾_1210083
+      - 🇨🇳台湾_1210084
+      - 🇨🇳台湾_1210085
+      - 🇨🇳台湾_1210086
+      - 🇨🇳台湾_1210087
+      - 🇨🇳台湾_1210088
+      - 🇨🇳台湾_1210092
+      - JP_AzadNet(1)
+      - 🇸🇬新加坡_1210008
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-12CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-7CDN
+      - 🇺🇸github.com/freefq-美国RFEngineering12
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-3CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-10CDN
+      - 🇺🇸[VMess]🇺🇲US【付费推荐：goo.gs/vip】9
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-14CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-1CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-15CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶2-5CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-13CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-6CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-8CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-3CDN
+      - 🇺🇸[VMess]🇺🇲US【付费推荐：goo.gs/vip】8
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点20
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-2CDN
+      - US_AzadNet
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-1CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-13CDN
+      - US_AzadNet(4)
+      - US_AzadNet(5)
+      - US_AzadNet(6)
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-11CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶2-6CDN
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-2CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-6CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-15CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-1CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-10CDN
+      - 🇩🇪[VMess]🇩🇪DE【付费推荐：goo.gs/vip】
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用)6
+      - ct1.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz32693
+      - SSR
+      - ''
+      - '2'
+      - 14.29.124.16824009
+      - 🇨🇳[SSR]🇨🇳CN【付费推荐：goo.gs/vip】
+      - 🇵🇱github.com/freefq-波兰32
+      - _AzadNet
+      - _AzadNet(1)
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-12CDN2
+      - DE_AzadNet(2)
+      - FR_AzadNet
+      - GB_AzadNet
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-13CDN2
+      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-1CDN2
       - default_name_1
       - default_name_2
       - default_name_3
