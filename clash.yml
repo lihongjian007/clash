@@ -14,13 +14,14 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"type":"ss","name":"default_name_1","server":"V2RAY.892899273.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7rieYa","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"V2RAY.892899273.repl.co","tls":true}}
-  - {"type":"ss","name":"default_name_2","server":"V2RAY.zhongwuyang1998.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7riXtj","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"V2RAY.zhongwuyang1998.repl.co","tls":true}}
-  - {"type":"ss","name":"default_name_3","server":"bbs.YingqiLyu.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"12345Justin","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"bbs.YingqiLyu.repl.co","tls":true}}
-  - {"type":"ss","name":"default_name_4","server":"bbs.flipme.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"Z4shkQ9ff77RJ!X5","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"bbs.flipme.repl.co","tls":true}}
-  - {"type":"ss","name":"default_name_5","server":"v2ray.nbl6.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7rieYadda","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"v2ray.nbl6.repl.co","tls":true}}
-  - {"type":"ss","name":"default_name_6","server":"myv2ray.lihongjian1991.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"lihongjian","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"myv2ray.lihongjian1991.repl.co","tls":true}}
-  - {"type":"trojan","name":"replit-trojan","server":"trojan.lihongjian1991.repl.co","port":443,"password":"a03b5b52","udp":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9ef4e3"}}
+  - {"type":"ss","name":"default_name_1","server":"V2RAY.892899273.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7rieYa","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"V2RAY.892899273.repl.co"}}
+  - {"type":"ss","name":"default_name_2","server":"V2RAY.zhongwuyang1998.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7riXtj","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"V2RAY.zhongwuyang1998.repl.co"}}
+  - {"type":"ss","name":"default_name_3","server":"bbs.YingqiLyu.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"12345Justin","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"bbs.YingqiLyu.repl.co"}}
+  - {"type":"ss","name":"default_name_4","server":"bbs.flipme.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"Z4shkQ9ff77RJ!X5","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"bbs.flipme.repl.co"}}
+  - {"type":"ss","name":"default_name_5","server":"v2ray.nbl6.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7rieYadda","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"v2ray.nbl6.repl.co"}}
+  - {"type":"ss","name":"default_name_6","server":"myv2ray.lihongjian1991.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"lihongjian","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"myv2ray.lihongjian1991.repl.co"}}
+  - {"type":"trojan","name":"replit-trojan","server":"trojan.lihongjian1991.repl.co","port":443,"password":"a03b5b52","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"日本(冰河圈子分享)","ws-opts":{"path":"/","headers":{"host":"jp.binghe.design"}},"server":"104.16.244.4","port":"443","uuid":"5ce9cb0d-6b12-4dbd-9114-74fd11dc6f35","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -34,104 +35,13 @@ proxy-groups:
       - default_name_5
       - default_name_6
       - replit-trojan
+      - 日本(冰河圈子分享)
   - name: ⚖️ 负载均衡
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - 🇯🇵日本_1210446
-      - 🇸🇬新加坡_1210371
-      - 🇸🇬新加坡_1210400
-      - 🇸🇬新加坡_1210006
-      - 🇰🇷[VMess]🇰🇷KR【付费推荐：goo.gs/vip】
-      - JP_AzadNet(2)
-      - TW_AzadNet
-      - TW_AzadNet(1)
-      - 🇯🇵@SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
-      - 🇨🇳台湾_1210051
-      - 🇨🇳台湾_1210053
-      - 🇨🇳台湾_1210055
-      - 🇨🇳台湾_1210056
-      - 🇨🇳台湾_1210058
-      - 🇨🇳台湾_1210059
-      - 🇨🇳台湾_1210060
-      - 🇨🇳台湾_1210061
-      - 🇨🇳台湾_1210062
-      - 🇨🇳台湾_1210063
-      - 🇨🇳台湾_1210064
-      - 🇨🇳台湾_1210065
-      - 🇨🇳台湾_1210066
-      - 🇨🇳台湾_1210067
-      - 🇨🇳台湾_1210068
-      - 🇨🇳台湾_1210069
-      - 🇨🇳台湾_1210070
-      - 🇨🇳台湾_1210071
-      - 🇨🇳台湾_1210072
-      - 🇨🇳台湾_1210073
-      - 🇨🇳台湾_1210074
-      - 🇨🇳台湾_1210075
-      - 🇨🇳台湾_1210076
-      - 🇨🇳台湾_1210078
-      - 🇨🇳台湾_1210080
-      - 🇨🇳台湾_1210081
-      - 🇨🇳台湾_1210082
-      - 🇨🇳台湾_1210083
-      - 🇨🇳台湾_1210084
-      - 🇨🇳台湾_1210085
-      - 🇨🇳台湾_1210086
-      - 🇨🇳台湾_1210087
-      - 🇨🇳台湾_1210088
-      - 🇨🇳台湾_1210092
-      - JP_AzadNet(1)
-      - 🇸🇬新加坡_1210008
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-12CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-7CDN
-      - 🇺🇸github.com/freefq-美国RFEngineering12
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-3CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-10CDN
-      - 🇺🇸[VMess]🇺🇲US【付费推荐：goo.gs/vip】9
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-14CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-1CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-15CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶2-5CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-13CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-6CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-8CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-3CDN
-      - 🇺🇸[VMess]🇺🇲US【付费推荐：goo.gs/vip】8
-      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点20
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-2CDN
-      - US_AzadNet
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-1CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-13CDN
-      - US_AzadNet(4)
-      - US_AzadNet(5)
-      - US_AzadNet(6)
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-11CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶2-6CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-2CDN2
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-6CDN2
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-15CDN2
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-1CDN2
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-10CDN
-      - 🇩🇪[VMess]🇩🇪DE【付费推荐：goo.gs/vip】
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用)6
-      - ct1.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz32693
-      - SSR
-      - ''
-      - '2'
-      - 14.29.124.16824009
-      - 🇨🇳[SSR]🇨🇳CN【付费推荐：goo.gs/vip】
-      - 🇵🇱github.com/freefq-波兰32
-      - _AzadNet
-      - _AzadNet(1)
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-12CDN2
-      - DE_AzadNet(2)
-      - FR_AzadNet
-      - GB_AzadNet
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-13CDN2
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-1CDN2
       - default_name_1
       - default_name_2
       - default_name_3
@@ -139,104 +49,13 @@ proxy-groups:
       - default_name_5
       - default_name_6
       - replit-trojan
+      - 日本(冰河圈子分享)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵日本_1210446
-      - 🇸🇬新加坡_1210371
-      - 🇸🇬新加坡_1210400
-      - 🇸🇬新加坡_1210006
-      - 🇰🇷[VMess]🇰🇷KR【付费推荐：goo.gs/vip】
-      - JP_AzadNet(2)
-      - TW_AzadNet
-      - TW_AzadNet(1)
-      - 🇯🇵@SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
-      - 🇨🇳台湾_1210051
-      - 🇨🇳台湾_1210053
-      - 🇨🇳台湾_1210055
-      - 🇨🇳台湾_1210056
-      - 🇨🇳台湾_1210058
-      - 🇨🇳台湾_1210059
-      - 🇨🇳台湾_1210060
-      - 🇨🇳台湾_1210061
-      - 🇨🇳台湾_1210062
-      - 🇨🇳台湾_1210063
-      - 🇨🇳台湾_1210064
-      - 🇨🇳台湾_1210065
-      - 🇨🇳台湾_1210066
-      - 🇨🇳台湾_1210067
-      - 🇨🇳台湾_1210068
-      - 🇨🇳台湾_1210069
-      - 🇨🇳台湾_1210070
-      - 🇨🇳台湾_1210071
-      - 🇨🇳台湾_1210072
-      - 🇨🇳台湾_1210073
-      - 🇨🇳台湾_1210074
-      - 🇨🇳台湾_1210075
-      - 🇨🇳台湾_1210076
-      - 🇨🇳台湾_1210078
-      - 🇨🇳台湾_1210080
-      - 🇨🇳台湾_1210081
-      - 🇨🇳台湾_1210082
-      - 🇨🇳台湾_1210083
-      - 🇨🇳台湾_1210084
-      - 🇨🇳台湾_1210085
-      - 🇨🇳台湾_1210086
-      - 🇨🇳台湾_1210087
-      - 🇨🇳台湾_1210088
-      - 🇨🇳台湾_1210092
-      - JP_AzadNet(1)
-      - 🇸🇬新加坡_1210008
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-12CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-7CDN
-      - 🇺🇸github.com/freefq-美国RFEngineering12
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-3CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-10CDN
-      - 🇺🇸[VMess]🇺🇲US【付费推荐：goo.gs/vip】9
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-14CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-1CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-15CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶2-5CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-13CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-6CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-8CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-3CDN
-      - 🇺🇸[VMess]🇺🇲US【付费推荐：goo.gs/vip】8
-      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点20
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-2CDN
-      - US_AzadNet
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-1CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-13CDN
-      - US_AzadNet(4)
-      - US_AzadNet(5)
-      - US_AzadNet(6)
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-11CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶2-6CDN
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-2CDN2
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-6CDN2
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-15CDN2
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶3-1CDN2
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-10CDN
-      - 🇩🇪[VMess]🇩🇪DE【付费推荐：goo.gs/vip】
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用)6
-      - ct1.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz32693
-      - SSR
-      - ''
-      - '2'
-      - 14.29.124.16824009
-      - 🇨🇳[SSR]🇨🇳CN【付费推荐：goo.gs/vip】
-      - 🇵🇱github.com/freefq-波兰32
-      - _AzadNet
-      - _AzadNet(1)
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-12CDN2
-      - DE_AzadNet(2)
-      - FR_AzadNet
-      - GB_AzadNet
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-13CDN2
-      - 🇺🇸https//github.com/Alvin9999/new-pac/wikiclaship1洛杉矶1-1CDN2
       - default_name_1
       - default_name_2
       - default_name_3
@@ -244,6 +63,7 @@ proxy-groups:
       - default_name_5
       - default_name_6
       - replit-trojan
+      - 日本(冰河圈子分享)
   - name: 🎯 全球直连
     type: select
     proxies:
