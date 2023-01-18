@@ -16,8 +16,6 @@ dns:
 proxies:
   - {"type":"vmess","name":"VMess有CDN","ws-opts":{"path":"/vm","headers":{"host":"d4zm2logr2wxg.cloudfront.net"}},"server":"d4zm2logr2wxg.cloudfront.net","port":"443","uuid":"721C6839-065E-F58B-A53C-53357C9D09B7","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"VMess无CDN","ws-opts":{"path":"/vm"},"server":"flyskyuh0o.eu-ddskrfhnxrqp.ondoprax.com","port":"443","uuid":"721C6839-065E-F58B-A53C-53357C9D09B7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vless","name":"VLess无CDN","server":"flyskyuh0o.eu-ddskrfhnxrqp.ondoprax.com","port":443,"uuid":"721C6839-065E-F58B-A53C-53357C9D09B7","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/vl"}}
-  - {"type":"vless","name":"VLess有CDN","server":"d4zm2logr2wxg.cloudfront.net","port":443,"uuid":"721C6839-065E-F58B-A53C-53357C9D09B7","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"d4zm2logr2wxg.cloudfront.net","ws-opts":{"path":"/vl","headers":{"host":"d4zm2logr2wxg.cloudfront.net"}}}
   - {"type":"ss","name":"default_name_1","server":"V2RAY.892899273.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7rieYa","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"V2RAY.892899273.repl.co"}}
   - {"type":"ss","name":"default_name_2","server":"V2RAY.zhongwuyang1998.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"ci7riXtj","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"V2RAY.zhongwuyang1998.repl.co"}}
   - {"type":"ss","name":"default_name_3","server":"bbs.YingqiLyu.repl.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"12345Justin","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"bbs.YingqiLyu.repl.co"}}
@@ -34,8 +32,6 @@ proxy-groups:
       - ⚖️ 负载均衡
       - VMess有CDN
       - VMess无CDN
-      - VLess无CDN
-      - VLess有CDN
       - default_name_1
       - default_name_2
       - default_name_3
@@ -52,8 +48,6 @@ proxy-groups:
     proxies:
       - VMess有CDN
       - VMess无CDN
-      - VLess无CDN
-      - VLess有CDN
       - default_name_1
       - default_name_2
       - default_name_3
@@ -70,8 +64,6 @@ proxy-groups:
     proxies:
       - VMess有CDN
       - VMess无CDN
-      - VLess无CDN
-      - VLess有CDN
       - default_name_1
       - default_name_2
       - default_name_3
